@@ -1,0 +1,2667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--tl:head-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tim Librez · Space hardware engineer</title>
+<meta name="description" content="Tim Librez, MSc Mechanical Engineering student at EPFL. Space hardware: design, manufacturing, vacuum and TVAC testing.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2314181D'/%3E%3Crect x='3' y='3' width='26' height='26' fill='none' stroke='%23C47F0A' stroke-width='1.5'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='12' fill='%23E8EBED' text-anchor='middle'%3ETL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@100..125,400..600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<!--
+  HOW TO EDIT THIS SITE
+  Open the site and add #edit at the end of the address. Click any text to
+  change it, click an image frame to add a photo, then press "Publish".
+  Publish saves this page and any new photos straight into the GitHub
+  repository (you are asked once for a GitHub access token), and GitHub
+  Pages updates the site about a minute later. All content lives in the
+  JSON block below; photos live in the images/ folder.
+-->
+<script id="site-data" type="application/json">{
+ "meta": {
+  "title": "Tim Librez · Space hardware engineer",
+  "description": "Tim Librez, MSc Mechanical Engineering student at EPFL. Space hardware: design, manufacturing, vacuum and TVAC testing.",
+  "accent": "#C47F0A",
+  "hideEmptyFigures": true,
+  "showRulers": true
+ },
+ "profile": {
+  "name": "Tim Librez",
+  "role": "MECHANICAL ENGINEERING · SPACE HARDWARE",
+  "thesis": "Plasma in vacuum. A payload flown at EuRoC. A paper at IEPC. Next: characterising a space mechanism in thermal vacuum.",
+  "intro": "MSc student in Mechanical Engineering at EPFL, specialising in solids and structures with a minor in Space Technologies. I design space hardware, build it and test it in vacuum.",
+  "ctaPrimary": "Get in touch",
+  "ctaSecondary": "See the work",
+  "email": "tim.librez@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/timlibrez",
+  "linkedinLabel": "linkedin.com/in/timlibrez",
+  "location": "Lausanne, Switzerland",
+  "figures": [
+   {
+    "kind": "photo",
+    "label": "View",
+    "caption": "Caption",
+    "src": "",
+    "wide": false,
+    "contain": false,
+    "pos": "center"
+   }
+  ],
+  "readout": [],
+  "readoutCaption": " ",
+  "readoutRev": "Rev A"
+ },
+ "sections": [
+  {
+   "id": "about",
+   "type": "about",
+   "navLabel": "About",
+   "dark": false,
+   "hidden": false,
+   "heading": "About",
+   "tag": "DWG TL-002",
+   "pull": "I learn by building, and I build to learn.",
+   "bio": [
+    "I joined the EPFL Rocket Team in my first year because I wanted to touch real hardware, not just study it. Four years later I had built a payload, two cathodes and a thruster, and learned along the way everything a classroom doesn’t teach: machining, designing power electronics, sealing vacuum lines and lighting a plasma.",
+    "I want to work on space hardware in Europe, in an international team where I keep learning."
+   ],
+   "areas": []
+  },
+  {
+   "id": "work",
+   "type": "cases",
+   "navLabel": "Work",
+   "dark": false,
+   "hidden": false,
+   "heading": "Selected work",
+   "tag": "5 sheets",
+   "intro": "",
+   "items": [
+    {
+     "dwg": "DWG TL-101",
+     "rev": "Rev A",
+     "title": "Characterisation of a space mechanism component",
+     "meta": [
+      "ClearSpace SA, mechanisms team",
+      "Internship",
+      "09/2026 – 02/2027"
+     ],
+     "blocks": [
+      {
+       "heading": "Problem",
+       "text": "A transmission component of a space mechanism had to be characterised (backlash, friction, breakaway and running torque, reversibility) across temperature and misalignment in TVAC.",
+       "bullets": []
+      },
+      {
+       "heading": "Built",
+       "text": "",
+       "bullets": [
+        "Designed the test bench in SolidWorks with PDM and took it through SRR, PDR, CDR; manufacturing drawings approved with tolerances, fits and GD&T.",
+        "Wrote the sizing sheets: motor and gearbox selection in air and vacuum, bearing arrangement, keys, bolted joints, tolerance chains.",
+        "Chose vacuum-compatible materials, lubricant and surface treatments against ECSS outgassing limits, and handled procurement with space suppliers.",
+        "Set up acquisition and the operator interface in Beckhoff/TwinCAT and motor control with EPOS controllers.",
+        "Wrote the ECSS file: Design definition and justification, FMECA, DML, DPL, DMPL, Assembly and Test procedure."
+       ]
+      },
+      {
+       "heading": "Outcome",
+       "text": "Bench through CDR, all parts ordered. Next: assembly, tests in air then TVAC, and comparison of measurements with predictions.",
+       "bullets": []
+      }
+     ],
+     "tags": [
+      "SolidWorks PDM",
+      "GD&T",
+      "TwinCAT",
+      "ECSS",
+      "TVAC"
+     ],
+     "figures": [
+      {
+       "kind": "diagram",
+       "label": "View A",
+       "caption": "ClearSpace",
+       "src": "images/5c41fc9f-c7eb-4dbf-ab9b-28b242a0f40c.jpg",
+       "wide": true,
+       "contain": false,
+       "pos": "100% 50%"
+      }
+     ],
+     "readout": [
+      {
+       "label": "MISSION",
+       "value": "ClearSpace 1",
+       "hl": false
+      },
+      {
+       "label": "Environment",
+       "value": "TVAC",
+       "hl": false
+      },
+      {
+       "label": "STATUS",
+       "value": "Internship",
+       "hl": true
+      }
+     ],
+     "note": "Details kept general: export-controlled project."
+    }
+   ]
+  },
+  {
+   "id": "chamber",
+   "type": "cases",
+   "navLabel": "",
+   "dark": true,
+   "hidden": false,
+   "heading": "Inside the chamber",
+   "tag": "Electric propulsion",
+   "intro": "Four years in the EPFL Rocket Team electric propulsion group: hardware that only makes sense once the pumps are running.",
+   "items": [
+    {
+     "dwg": "DWG TL-102",
+     "rev": "Rev A",
+     "title": "RF cathode for a Hall thruster",
+     "meta": [
+      "EPFL Rocket Team",
+      "Semester project, solo",
+      "01 – 07/2026"
+     ],
+     "blocks": [
+      {
+       "heading": "Problem",
+       "text": "Hall thrusters need a neutraliser. Inductive RF cathodes have no flight heritage and the budget was small, so every part had to be made in house.",
+       "bullets": []
+      },
+      {
+       "heading": "Built",
+       "text": "",
+       "bullets": [
+        "Took the project from literature review to requirements, architecture, design, manufacturing and tests.",
+        "Made every part myself: CNC-turned stainless steel, machined ceramic, a multi-pass deep-drawn electrode (two tooling iterations to remove defects), SLA-printed ceramic.",
+        "Designed the vacuum, gas and high-voltage interfaces: copper gaskets, anti-arcing clearances, low-outgassing materials.",
+        "Sourced RF and vacuum equipment and materials through Swiss labs."
+       ]
+      },
+      {
+       "heading": "Outcome",
+       "text": "Plasma generated in vacuum with 70 W of RF input power and more than 1200 W circulating in the matching network.",
+       "bullets": []
+      }
+     ],
+     "tags": [
+      "Ceramic machining",
+      "Deep drawing",
+      "SLA ceramic",
+      "High voltage",
+      "Vacuum"
+     ],
+     "figures": [
+      {
+       "kind": "photo",
+       "label": "View A",
+       "caption": "RF Cathode ignition",
+       "src": "images/31f1ef9f-fbb2-4f23-aaa6-02dbf5452518.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "0% 57.5%",
+       "shape": "3:2",
+       "ratio": 0.75,
+       "zoom": 1.2
+      },
+      {
+       "kind": "photo",
+       "label": "View B",
+       "caption": "CNC Ceramic Manufacturing",
+       "src": "images/c4996f7f-3077-4766-9f50-ce3a2439a453.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 27.8%",
+       "shape": ""
+      },
+      {
+       "kind": "photo",
+       "label": "View C",
+       "caption": "Test Equipment",
+       "src": "images/2d56c5ae-e668-4880-a7e7-e442163b4f81.jpg",
+       "wide": true,
+       "contain": false,
+       "pos": "50% 42.1%",
+       "shape": "",
+       "ratio": 1.333
+      },
+      {
+       "kind": "photo",
+       "label": "View D",
+       "caption": "RF Cathode Test Bench",
+       "src": "images/070dfd2a-393c-42b1-bafc-672ff6457c14.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "center"
+      },
+      {
+       "kind": "photo",
+       "label": "Section A-A",
+       "caption": "Section View",
+       "src": "images/38571b83-b54b-4057-851e-1564f5c774cd.png",
+       "wide": false,
+       "contain": true,
+       "pos": "0% 50%"
+      }
+     ],
+     "readout": [
+      {
+       "label": "RF input",
+       "value": "70 W",
+       "hl": false
+      },
+      {
+       "label": "Circulating",
+       "value": "> 1200 W",
+       "hl": false
+      },
+      {
+       "label": "STATUS",
+       "value": "Plasma",
+       "hl": true
+      }
+     ],
+     "note": "",
+     "cover": {
+      "pos": "15.8% 100%",
+      "zoom": 1.7
+     }
+    },
+    {
+     "dwg": "DWG TL-103",
+     "rev": "Rev A",
+     "title": "Dual-discharge coaxial pulsed plasma thruster",
+     "meta": [
+      "EPFL Rocket Team",
+      "Team project",
+      "Paper at IEPC 2025"
+     ],
+     "blocks": [
+      {
+       "heading": "Problem",
+       "text": "Take a new ablative pulsed plasma thruster architecture, coaxial with two discharges, from design to first tests.",
+       "bullets": []
+      },
+      {
+       "heading": "Built",
+       "text": "",
+       "bullets": [
+        "Reviewed the literature and defined the architecture.",
+        "Designed and manufactured the thruster within the team, ahead of the preliminary tests reported in the paper.",
+        "Machined the copper electrodes and aluminium casing on CNC."
+       ]
+      },
+      {
+       "heading": "Outcome",
+       "text": "Co-authored *Design and preliminary testing of a dual discharge coaxial A-PPT*, 39th International Electric Propulsion Conference, Imperial College London, 2025.",
+       "bullets": []
+      }
+     ],
+     "tags": [
+      "Electric propulsion",
+      "Design",
+      "Manufacturing"
+     ],
+     "figures": [
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Caption",
+       "src": "images/fe60f5d6-25f9-46b5-8587-4d31ce769dd8.png",
+       "wide": false,
+       "contain": false,
+       "pos": "center"
+      },
+      {
+       "kind": "diagram",
+       "label": "View B",
+       "caption": "Thruster Manufactured",
+       "src": "images/279f990e-478a-4bc4-8dce-4440c2b99328.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 31.1%"
+      },
+      {
+       "kind": "photo",
+       "label": "View A",
+       "caption": "Thruster CAD",
+       "src": "images/e76053d6-eb84-4fed-9e96-441e6794da0e.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "center"
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Caption",
+       "src": "images/30f39d30-9850-440b-95be-57d841ef9e1a.png",
+       "wide": false,
+       "contain": false,
+       "pos": "center",
+       "shape": "auto",
+       "ratio": 0.746
+      }
+     ],
+     "readout": [
+      {
+       "label": "Type",
+       "value": "A-PPT",
+       "hl": false
+      },
+      {
+       "label": "Discharges",
+       "value": "Dual",
+       "hl": false
+      },
+      {
+       "label": "STATUS",
+       "value": "IEPC 2025",
+       "hl": true
+      }
+     ],
+     "note": "",
+     "cover": {
+      "pos": "50% 50%",
+      "zoom": 1
+     }
+    },
+    {
+     "title": "Hollow cathode",
+     "context": "EPFL Rocket Team · team of five",
+     "text": "Designed, built and tested in vacuum. Also built the gas feed lines and flange interfaces to the chamber.",
+     "roLabel": "Extracted",
+     "roValue": "1 A",
+     "tags": [
+      "Vacuum",
+      "CNC Machining",
+      "Electrical Circuit"
+     ],
+     "figures": [
+      {
+       "kind": "photo",
+       "label": "View A",
+       "caption": "Cathode running",
+       "src": "images/0ecbbcd8-d4fa-4c8d-8f80-96b1e9fc34a1.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "36% 79.5%",
+       "zoom": 1
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Caption",
+       "src": "images/9e529baf-74d3-4714-a920-140d8d4751c4.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 2.6%"
+      }
+     ],
+     "cover": {
+      "pos": "43% 100%",
+      "zoom": 2
+     },
+     "dwg": "DWG TL-104",
+     "rev": "Rev A",
+     "meta": [
+      "EPFL Rocket Team",
+      "team of five"
+     ],
+     "blocks": [
+      {
+       "heading": "PROBLEM",
+       "text": "The EPFL Rocket Team is developing a Hall effect thruster, which needs a cathode as its electron source and to neutralise the 1A ion beam. The team had to design and build that cathode in house, along with its power supply, gas feed and vacuum chamber interfaces.",
+       "bullets": []
+      },
+      {
+       "heading": "Overview",
+       "text": "Designed, built and tested in vacuum. Also built the gas feed lines and flange interfaces to the chamber.",
+       "bullets": [
+        "Reviewed the literature.",
+        "Designed the power supply in KiCad (3 DC inputs, 400 V discharge, 3.5 A through the heater), then sourced, assembled and tested it.",
+        "Designed and assembled a 10 sccm argon feed line with a MFC, Swagelok fittings and PTFE tubing.",
+        "Designed the test bench and its mechanical, electrical and gas interfaces to the vacuum chamber.",
+        "Machined the MACOR discharge chamber and the aluminium parts on CNC."
+       ]
+      },
+      {
+       "heading": "OUTCOME",
+       "text": "The cathode ran in vacuum. Its gas line and chamber interfaces were reused from the test campaign of the RF cathode.",
+       "bullets": []
+      }
+     ],
+     "readout": [
+      {
+       "label": "EMITTER",
+       "value": "Lab6",
+       "hl": false
+      },
+      {
+       "label": "TARGET",
+       "value": "1 A",
+       "hl": false
+      },
+      {
+       "label": "STATUS",
+       "value": "Plasma",
+       "hl": true
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "work-2",
+   "type": "cases",
+   "navLabel": "",
+   "dark": false,
+   "hidden": false,
+   "heading": "",
+   "tag": "",
+   "intro": "",
+   "items": [
+    {
+     "dwg": "DWG TL-105",
+     "rev": "Rev A",
+     "title": "3U payload flown at EuRoC 2023",
+     "meta": [
+      "EPFL Rocket Team",
+      "Payload team",
+      "2022 – 2023"
+     ],
+     "blocks": [
+      {
+       "heading": "Problem",
+       "text": "Fly a plasma-activated water experiment inside a sounding rocket: high voltage, liquids and launch loads in a 3U volume.",
+       "bullets": []
+      },
+      {
+       "heading": "Built",
+       "text": "",
+       "bullets": [
+        "Designed the internal structure in PETG mounts on rods and external structure in FR4 glass-epoxy.",
+        "Insulated the 20 kV experiment from the rest of the rocket in an epoxy mold.",
+        "Set the mass and volume budgets and the centre of gravity.",
+        "Ran static simulations of flight loads to check the design."
+       ]
+      },
+      {
+       "heading": "Outcome",
+       "text": "The payload flew at the European Rocketry Challenge 2023.",
+       "bullets": []
+      }
+     ],
+     "tags": [
+      "Structures",
+      "High voltage",
+      "Mass budget",
+      "Tag"
+     ],
+     "figures": [
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Caption",
+       "src": "images/e18862d5-df9b-4ee2-8a9d-2edee725928e.png",
+       "wide": false,
+       "contain": false,
+       "pos": "center"
+      },
+      {
+       "kind": "photo",
+       "label": "View A",
+       "caption": "Payload ",
+       "src": "images/73fc3782-6cf6-460d-baf8-73692c462b28.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "center",
+       "shape": "4:5",
+       "ratio": 0.56
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Caption",
+       "src": "images/a4105d86-6cef-4d3e-8483-b5e025af0bca.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 82.5%",
+       "shape": "4:5",
+       "ratio": 0.749
+      },
+      {
+       "kind": "photo",
+       "label": "View B",
+       "caption": "Launch at EuRoC 2023",
+       "src": "images/76d6d7fa-2967-469d-8883-de5e1d7c6c22.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 37.1%"
+      }
+     ],
+     "readout": [
+      {
+       "label": "Format",
+       "value": "3U",
+       "hl": false
+      },
+      {
+       "label": "Insulation",
+       "value": "20 kV",
+       "hl": false
+      },
+      {
+       "label": "STATUS",
+       "value": "Flown",
+       "hl": true
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "projects",
+   "type": "projects",
+   "navLabel": "Projects",
+   "dark": false,
+   "hidden": false,
+   "heading": "More projects",
+   "tag": "DWG TL-200",
+   "items": [
+    {
+     "dwg": "DWG TL-105",
+     "rev": "Rev A",
+     "title": "Water rocket \"Bob\"",
+     "meta": [
+      "EPFL, Space Propulsion",
+      "Avionics lead, team of six",
+      "02 – 05/2026 · 5.75/6"
+     ],
+     "blocks": [
+      {
+       "heading": "Problem",
+       "text": "Design, build and fly a water rocket through phases 0 to F, with a payload to eject and recover, and predict the flight before it happens.",
+       "bullets": []
+      },
+      {
+       "heading": "Built",
+       "text": "",
+       "bullets": [
+        "Built the avionics: microcontroller, IMU, high-g accelerometer, barometer, camera, SD logging, LED diagnostics, on an FDM-printed PETG board (low budget).",
+        "Wrote redundant parachute deployment logic (acceleration, altitude, attitude) running on a dedicated real-time core.",
+        "Budget (mass, power, data,....)",
+        "Design and build the payload ejection system and recovery architecture"
+       ]
+      },
+      {
+       "heading": "Outcome",
+       "text": "Test flight nominal: apogee within 1.5 % of the team simulation, payload ejected and recovered. The final flight failed: a leak forced a 2.5 bar launch and a hard landing, a lesson in sealing margins.",
+       "bullets": []
+      }
+     ],
+     "tags": [
+      "Avionics",
+      "Embedded",
+      "Testing",
+      "Phases 0–F"
+     ],
+     "figures": [
+      {
+       "kind": "diagram",
+       "label": "View A",
+       "caption": "Nominal take off",
+       "src": "images/395a0df7-6ca8-4a8e-8ef9-dba144850d08.png",
+       "wide": false,
+       "contain": true,
+       "pos": "73.5% 59.4%",
+       "zoom": 1.25
+      },
+      {
+       "kind": "photo",
+       "label": "View B",
+       "caption": "Parachute and payload deployement",
+       "src": "images/0de21ed6-9af9-498e-9fb0-47380ab8ea30.png",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 96.5%"
+      },
+      {
+       "kind": "photo",
+       "label": "View C",
+       "caption": "Recovery",
+       "src": "images/ede1b597-ff58-4619-8ebd-4d1ce9a3949c.png",
+       "wide": false,
+       "contain": false,
+       "pos": "50% 14%",
+       "zoom": 1
+      }
+     ],
+     "readout": [
+      {
+       "label": "Simulated",
+       "value": "32.8 m",
+       "hl": false
+      },
+      {
+       "label": "Measured",
+       "value": "33.3 m",
+       "hl": false
+      },
+      {
+       "label": "Deviation",
+       "value": "1.5 %",
+       "hl": true
+      }
+     ],
+     "note": "",
+     "context": "EPFL, Space Propulsion",
+     "text": "Design, build and fly a water rocket through phases 0 to F, with a payload to eject and recover, and predict the flight before it happens.",
+     "roLabel": "Deviation",
+     "roValue": "1.5 %"
+    },
+    {
+     "title": "Flying wheel, data-driven design",
+     "context": "EPFL, Data-Driven Design · team of five",
+     "text": "Led the data-driven approach and SLA production: Simulink flight model, Bayesian optimisation in MATLAB (Gaussian process, expected improvement), SLA prototypes. A closed simulation-test loop recalibrated the model before the final print.",
+     "roLabel": "Apex gain",
+     "roValue": "+28 %",
+     "tags": [
+      "Simulink",
+      "MATLAB",
+      "Bayesian opt.",
+      "SLA"
+     ],
+     "figures": [
+      {
+       "kind": "diagram",
+       "label": "View A",
+       "caption": "Simulink model block diagram",
+       "src": "images/1efe5d5a-7b5d-4521-b4cd-c009e33a91ee.png",
+       "wide": false,
+       "contain": true,
+       "pos": "center",
+       "zoom": 1,
+       "shape": "auto",
+       "ratio": 2.851
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "LHS + Gaussian process",
+       "src": "images/55eb4b51-90e3-4ddf-a028-a99c712cf217.png",
+       "wide": false,
+       "contain": true,
+       "pos": "center",
+       "shape": "auto",
+       "ratio": 1.188
+      }
+     ],
+     "dwg": "DWG TL-106",
+     "rev": "Rev A",
+     "meta": [
+      "EPFL, Data-Driven Design",
+      "team of five"
+     ],
+     "blocks": [
+      {
+       "heading": "Overview",
+       "text": "Owned the data-driven approach: Simulink flight model, Bayesian optimisation in MATLAB (Gaussian process, expected improvement), SLA prototypes. A closed simulation-test loop recalibrated the model before the final print.",
+       "bullets": [
+        "Built the Simulink flight model in state-space form (rotation, lift, drag, gravity), returning apex altitude for 4 design variables.",
+        "Implemented Bayesian optimisation in MATLAB: Latin Hypercube Sampling + Gaussian surrogate process.",
+        "Recalibrated the model with the 72 test data: power-law inertia, launcher damping, drag, instability.",
+        "Printed SLA rotors"
+       ]
+      },
+      {
+       "heading": "OUTCOME",
+       "text": "Outcome : The optimised rotor (3 blades, rim, 6°, 6 cm) reached 9.2 m, against 7.2 m for the best initial design. The simulation overestimates altitude by maximum 20 % but ranks every configuration correctly, which validates the surrogate model.",
+       "bullets": []
+      }
+     ],
+     "readout": [
+      {
+       "label": "INITIAL BEST",
+       "value": "7.2m",
+       "hl": false
+      },
+      {
+       "label": "OPTIMISED",
+       "value": "9.2m",
+       "hl": false
+      },
+      {
+       "label": "APEX GAIN",
+       "value": "+28%",
+       "hl": true
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "Life-cycle assessment of a student rocket",
+     "context": "EPFL, Space Sustainability · team of five",
+     "text": "Did the technical part: BOM from the EPFL Rocket team data and the Granta EduPack Eco Audit. Found that composite airframe and team travel dominate the footprint, and that reuse is the biggest lever.",
+     "roLabel": "Reuse lever",
+     "roValue": "−65 % net CO₂",
+     "tags": [
+      "Granta EduPack",
+      "LCA"
+     ],
+     "figures": [
+      {
+       "kind": "diagram",
+       "label": "View A",
+       "caption": "CO₂ breakdown chart",
+       "src": "images/d70e7e75-5972-4003-a1f8-87eef6c8c1b1.png",
+       "wide": true,
+       "contain": true,
+       "pos": "9.3% 50%",
+       "shape": "auto",
+       "ratio": 2.672
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Report Table of contents",
+       "src": "images/40315caf-dc8b-4673-9a14-4d62f9b1b839.png",
+       "wide": false,
+       "contain": true,
+       "pos": "center",
+       "shape": "auto",
+       "ratio": 0.901
+      }
+     ],
+     "dwg": "DWG TL-106",
+     "rev": "Rev A",
+     "meta": [
+      "EPFL, Space Sustainability",
+      "team of five"
+     ],
+     "blocks": [
+      {
+       "heading": "Overview",
+       "text": "Did the technical part: BOM from the EPFL Rocket team, Granta EduPack Eco Audit, and Hotspots identification. Found that composite airframe and team travel dominate the footprint, and that reuse is the biggest lever.",
+       "bullets": [
+        "Built the bill of materials from the Firehorn 1 CDR, matched to the final vehicle mass (screws and electronics excluded).",
+        "Modelled the life cycle in Granta EduPack Eco Audit: material production, manufacturing, transport, 6 static fires and the launch, end of life.",
+        "Compared scenarios: Portugal (EuRoC, about 3,800 km by van), Spaceport America and a Swiss launch site; expendable against reusable vehicle; team travel by air against train.",
+        "Benchmarked the results against ESA’s Ariane 5 ECA life-cycle assessment (Deloitte, 2017).",
+        "Listed the model’s limits: generic material data, electronics and secondary machining not included, design phase out of scope."
+       ]
+      },
+      {
+       "heading": "OUTCOME",
+       "text": "A reusable architecture would cut net emissions by 64.7 %. Team air travel outweighs the vehicle itself: 7,884 kg CO₂ by plane against 594 kg by train for 27 members.",
+       "bullets": []
+      }
+     ],
+     "readout": [
+      {
+       "label": "AIR TRAVEL",
+       "value": "67.1%",
+       "hl": false
+      },
+      {
+       "label": "Reuse lever",
+       "value": "−65 % net CO₂",
+       "hl": true
+      }
+     ],
+     "note": ""
+    },
+    {
+     "title": "Self-regulating ventilated ski jacket",
+     "context": "EPFL, Mechanical Product Design · 5.75/6",
+     "text": "Skiers overheat and sweat during effort, then get cold when they stop. The goal was a jacket that actively regulates temperature and humidity using outside air, without fans or heaters. It had to add less than 1.5 kg and 20 W, run at least 8 h on battery and cost under 250 CHF.",
+     "roLabel": "SETPOINT",
+     "roValue": "200s",
+     "tags": [
+      "Systems engineering",
+      "Architecture",
+      "Compliant Mechanism",
+      "Design"
+     ],
+     "figures": [
+      {
+       "kind": "photo",
+       "label": "View A",
+       "caption": "CAD Visualisation",
+       "src": "images/e5f4ece3-df38-4804-9897-1447626da649.png",
+       "wide": true,
+       "contain": true,
+       "pos": "center",
+       "shape": "auto",
+       "ratio": 0.863
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Compliant Valve Mechanism",
+       "src": "images/7a74f601-c963-4e3a-b02e-2217276c7b87.png",
+       "wide": true,
+       "contain": false,
+       "pos": "100% 0%",
+       "zoom": 1
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Jacket with face valve",
+       "src": "images/ef43e7fd-33ad-4278-96c6-5a2c724a6b54.jpg",
+       "wide": false,
+       "contain": false,
+       "pos": "15.2% 38.7%",
+       "zoom": 1.75
+      },
+      {
+       "kind": "photo",
+       "label": "View",
+       "caption": "Test Results (50s-250s)",
+       "src": "images/f8492178-1473-4fac-be45-f165abbaa751.png",
+       "wide": false,
+       "contain": false,
+       "pos": "center"
+      }
+     ],
+     "dwg": "DWG TL-106",
+     "rev": "Rev A",
+     "meta": [
+      "EPFL, Mechanical Product Design",
+      "5.75/6"
+     ],
+     "blocks": [
+      {
+       "heading": "PROBLEM",
+       "text": "Skiers overheat and sweat during effort, then get cold when they stop. The goal was a jacket that actively regulates temperature and humidity using outside air, without fans or heaters. It had to add less than 1.5 kg and 20 W, run at least 8 h on battery and cost under 250 CHF.",
+       "bullets": [
+        "Led the systems engineering: stakeholder analysis, requirements, functions, and verification through static, dynamic and cooling tests.",
+        "Designed the mechanical parts in SolidWorks: electronics supports, the control box (laser-cut) and the compliant vent valves.",
+        "Defined the architecture: 5 SHT41 sensors (4 inside, 1 ambient) on an I²C multiplexer, an Arduino Uno, a PCA9685 servo shield, 4 servos and a 7.4 V Li-ion battery."
+       ]
+      },
+      {
+       "heading": "OUTCOME",
+       "text": "In cycling tests the jacket returned to its setpoint in about 200 s (target 5 min), drawing about 2 W. It adds 1.3 kg (limit 1.5 kg), runs about 20 h on battery  and cost 192 CHF (included prototyping costs). Grade 5.75/6.",
+       "bullets": []
+      }
+     ],
+     "readout": [
+      {
+       "label": "SETPOINT",
+       "value": "200s",
+       "hl": false
+      },
+      {
+       "label": "MASS",
+       "value": "1.3kg",
+       "hl": false
+      },
+      {
+       "label": "BATTERY",
+       "value": "20h",
+       "hl": true
+      }
+     ],
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "skills",
+   "type": "stack",
+   "navLabel": "",
+   "dark": false,
+   "hidden": false,
+   "heading": "Toolkit",
+   "tag": "TOOLS AND METHODS",
+   "layers": [
+    {
+     "name": "Growing edge",
+     "items": [
+      "Space mechanisms",
+      "Lubrication in vacuum",
+      "ECSS from SRR to CDR"
+     ],
+     "edge": true
+    },
+    {
+     "name": "DESIGN",
+     "items": [
+      "Drawings",
+      "GD&T",
+      "Tolerance Chains",
+      "Materials Selection",
+      "Data-Driven Design",
+      "Structural Simulation",
+      "ISO fits",
+      "Sizing: Bearings - Motors - Fasteners - Keys "
+     ],
+     "edge": false
+    },
+    {
+     "name": "Build",
+     "items": [
+      "CNC turning and milling",
+      "Ceramic machining",
+      "Deep drawing",
+      "SLA and FDM",
+      "Laser cutting",
+      "Plumbing",
+      "Testing"
+     ],
+     "edge": false
+    },
+    {
+     "name": "SOFTWARE",
+     "items": [
+      "SolidWorks + PDM",
+      "Sizing sheets",
+      "Ansys",
+      "FEMM",
+      "MATLAB/Simulink",
+      "Python",
+      "Granta EduPack",
+      "Kicad",
+      "Twincat"
+     ],
+     "edge": false
+    },
+    {
+     "name": "ELECTRONICS",
+     "items": [
+      "Sensor acquisition",
+      "Interfaces",
+      "Schematic Design",
+      "Circuit Prototyping",
+      "Beckhoff"
+     ],
+     "edge": false
+    },
+    {
+     "name": "METHODS AND STANDARDS",
+     "items": [
+      "Requirements",
+      "Functional Analysis",
+      "FMECA",
+      "Assembly and test procedures",
+      "LCA",
+      "DPL-DML-DMPL",
+      "Procurement and supplier follow up",
+      "ECSS"
+     ],
+     "edge": false
+    }
+   ]
+  },
+  {
+   "id": "experience",
+   "type": "timeline",
+   "navLabel": "",
+   "dark": false,
+   "hidden": false,
+   "heading": "Experience",
+   "tag": "DWG TL-300",
+   "items": [
+    {
+     "dates": "09/2026 – 02/2027",
+     "org": "ClearSpace SA",
+     "role": "Mechanical engineering intern, mechanisms",
+     "text": "Vacuum test bench for a space mechanism, from requirements to CDR and procurement.",
+     "major": true,
+     "logo": {
+      "src": "images/254e76e1-d346-4998-80a5-beb53c826afa.png"
+     }
+    },
+    {
+     "dates": "12/2022 – 07/2026",
+     "org": "EPFL Rocket Team",
+     "role": "Electric propulsion team",
+     "text": "Cathodes, pulsed plasma thruster, gas lines and vacuum interfaces, EuRoC 2023 payload.",
+     "major": true,
+     "logo": {
+      "src": "images/1d251502-bf6f-4914-8c31-11ffff3ccacc.jpg"
+     }
+    },
+    {
+     "dates": "Since 2023",
+     "org": "EPFL and private tutoring",
+     "role": "Teaching assistant and tutor (EPFL, Ivvd, Phassyl) ",
+     "text": "Exercise sessions in mechanics, materials, structures, algebra, chemistry for 1st year student groups of 5 to 100 students.",
+     "major": false,
+     "logo": {
+      "src": "images/6d19b747-5e9d-4445-878d-cdcb6d8d3979.png"
+     }
+    },
+    {
+     "dates": "Since 2024",
+     "org": "HOLIDAY CAMPS (BAFA-CERTIFIED)",
+     "role": "Camp leader",
+     "text": "Led mainstream and inclusive holiday camps, including children from disadvantaged backgrounds and children with disabilities.",
+     "major": false,
+     "logo": {
+      "src": ""
+     }
+    },
+    {
+     "dates": "Various 2023-2025",
+     "org": " ",
+     "role": "Events and volunteering ",
+     "text": "Staff ESMATS 2025, drone photography at the Marathon des Vins, Events AGEpoly student association staff, structure balelec festival, buddy ESN...",
+     "major": false,
+     "logo": {
+      "src": ""
+     }
+    }
+   ]
+  },
+  {
+   "id": "education",
+   "type": "education",
+   "navLabel": "",
+   "dark": false,
+   "hidden": false,
+   "heading": "Education",
+   "tag": "DWG TL-400",
+   "items": [
+    {
+     "dates": "09/2025 – 02/2028",
+     "degree": "MSc Mechanical Engineering, specialisation in Mechanics of Solids and Structures, minor in Space Technologies",
+     "school": "EPFL, Lausanne",
+     "detail": "Including an extra semester for an industry internship.",
+     "logo": {
+      "src": "images/fc6adf7f-f08f-4e6d-9bf9-76a23393a0e2.png",
+      "pos": "50% 0%",
+      "zoom": 1,
+      "fit": "contain"
+     }
+    },
+    {
+     "dates": "2024 – 2025",
+     "degree": "Exchange year",
+     "school": "KTH Royal Institute of Technology, Stockholm",
+     "detail": "Fundamentals of spaceflight, rocket propulsion, thermal simulation in Ansys.",
+     "logo": {
+      "src": "images/c4cbb085-04d3-476b-a59f-a2a46499f7f1.png",
+      "pos": "53.4% 100%",
+      "zoom": 1,
+      "fit": "contain"
+     }
+    },
+    {
+     "dates": "2022 – 2025",
+     "degree": "BSc Mechanical Engineering",
+     "school": "EPFL, Lausanne",
+     "detail": "Average 5.27/6.",
+     "logo": {
+      "src": "images/959df304-8f86-4a38-b8bd-d1de85930de9.png"
+     }
+    }
+   ],
+   "coursesLabel": "Relevant courses · grade /6",
+   "courses": [
+    {
+     "name": "Space Mission Design and Operations",
+     "grade": "6"
+    },
+    {
+     "name": "Thermodynamique and Energetics",
+     "grade": "6"
+    },
+    {
+     "name": "Mechanics of Slender Structures",
+     "grade": "5.75"
+    },
+    {
+     "name": "Mechanical Product Design and Development",
+     "grade": "5.75"
+    },
+    {
+     "name": "Mechanical Design II",
+     "grade": "5.75"
+    },
+    {
+     "name": "Introduction to the Design of Space Mechanisms",
+     "grade": "5.5"
+    },
+    {
+     "name": "Tribology",
+     "grade": "5.5"
+    },
+    {
+     "name": "Space Propulsion",
+     "grade": "5.5"
+    },
+    {
+     "name": "Data-Driven Design and Fabrication Methods",
+     "grade": "5.5"
+    },
+    {
+     "name": "Space Sustainability",
+     "grade": "5.5"
+    },
+    {
+     "name": "Materials Selection",
+     "grade": "5.25"
+    },
+    {
+     "name": "Advanced Additive Manufacturing Technologies",
+     "grade": "5.25"
+    },
+    {
+     "name": "Aeroelasticity and Fluid-Structure Interaction",
+     "grade": "5"
+    }
+   ],
+   "pubLabel": "Publication",
+   "publications": [
+    "J. Corcelle, J. Spender, O. Gubelmann, **T. Librez**, P. Sintre, *Design and preliminary testing of a dual discharge coaxial A-PPT*, 39th International Electric Propulsion Conference (IEPC), Imperial College London, 2025."
+   ],
+   "recognition": [
+    "Co-author, IEPC 2025",
+    "Payload flown at EuRoC 2023",
+    "Plasma in vacuum, solo RF cathode"
+   ]
+  },
+  {
+   "id": "contact",
+   "type": "contact",
+   "navLabel": "Contact",
+   "dark": false,
+   "hidden": false,
+   "heading": "Contact",
+   "tag": "Title block",
+   "title": "Building something that has to work in vacuum?",
+   "lead": "I'd like to hear about space mechanisms, test benches and hardware teams that design and test in the same hands. Available for a 6-month final-year internship from 07/2027.",
+   "rev": "2026",
+   "sheet": "1 / 1"
+  }
+ ]
+}</script>
+<style>
+:root{
+  --bg:#E8EBED; --paper:#F1F3F4; --ink:#14181D; --steel:#5E6973; --line:#C5CCD2;
+  --kapton:#C47F0A; --kapton-text:#8A5704; --kapton-light:#E0A23C;
+  --vac:#14181D; --vac-2:#1C2228; --vac-line:#323B44; --vac-text:#C5CCD2; --vac-muted:#8E99A3;
+  --display:'Archivo',system-ui,sans-serif; --body:'IBM Plex Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',ui-monospace,monospace;
+  --frame:clamp(8px,2vw,20px); --max:1120px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--kapton);outline-offset:3px}
+img{max-width:100%;display:block}
+.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+.sheet{margin:var(--frame);border:1.5px solid var(--ink);position:relative;min-height:calc(100vh - 2*var(--frame))}
+.ruler{display:grid;grid-template-columns:repeat(6,1fr);border-bottom:1px solid var(--ink);font:400 11px var(--mono);color:var(--steel)}
+.ruler span{padding:2px 0;text-align:center;border-right:1px solid var(--line)}
+.ruler span:last-child{border-right:0}
+.ruler.bottom{border-bottom:0;border-top:1px solid var(--ink)}
+.no-rulers .ruler{display:none}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 clamp(16px,4vw,48px)}
+
+nav.top{position:sticky;top:0;z-index:10;background:var(--bg);border-bottom:1px solid var(--ink)}
+nav.top .wrap{display:flex;align-items:center;justify-content:space-between;height:52px;gap:16px}
+.mark{font:500 13px var(--mono);letter-spacing:.06em;text-decoration:none;display:flex;align-items:center;gap:10px;text-transform:uppercase}
+.mark b{display:inline-grid;place-items:center;width:28px;height:28px;border:1.5px solid var(--ink);font-weight:500}
+nav.top ul{display:flex;gap:clamp(12px,3vw,28px);list-style:none;margin:0;padding:0;font:400 13px var(--mono)}
+nav.top a{text-decoration:none}
+nav.top a:hover{color:var(--kapton-text)}
+.nav-cta{background:var(--kapton);padding:6px 12px;color:var(--ink)!important}
+
+.label{font:400 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--steel)}
+h1,h2,h3{font-family:var(--display);font-stretch:125%;font-weight:500;line-height:1.05;margin:0}
+.sec{padding:clamp(48px,8vw,96px) 0}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;border-bottom:1px solid var(--ink);padding-bottom:12px;margin-bottom:clamp(28px,5vw,48px)}
+.sec-head h2{font-size:clamp(26px,4vw,40px)}
+.sec-intro{max-width:56ch;margin:-12px 0 40px;color:var(--steel)}
+.btn{display:inline-flex;align-items:center;gap:8px;font:500 15px var(--body);padding:12px 20px;text-decoration:none;border:1.5px solid var(--ink);transition:background .15s}
+.btn.primary{background:var(--kapton);border-color:var(--kapton)}
+.btn.primary:hover{background:var(--kapton-light);border-color:var(--kapton-light)}
+.btn.ghost:hover{background:var(--paper)}
+.tags{display:flex;flex-wrap:wrap;gap:6px;list-style:none;padding:0;margin:0}
+.tags li{font:400 12px var(--mono);border:1px solid var(--line);padding:3px 8px;color:var(--steel)}
+
+.hero{padding:clamp(36px,6vw,72px) 0 clamp(32px,5vw,56px)}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,5vw,64px);align-items:end}
+.hero-grid.solo{grid-template-columns:minmax(0,1fr)}
+.hero h1{font-size:clamp(52px,8.6vw,112px);line-height:.9;letter-spacing:-.01em;margin:18px 0 24px;white-space:pre-line}
+.hero-grid.solo h1{white-space:normal}
+.thesis{font-size:clamp(20px,2.4vw,26px);line-height:1.4;max-width:34ch;margin:0 0 16px}
+.intro{color:var(--steel);max-width:60ch;margin:0 0 28px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 20px;list-style:none;padding:0;margin:22px 0 0;font:400 13px var(--mono);color:var(--steel)}
+.facts li::before{content:"";display:inline-block;width:7px;height:7px;background:var(--kapton);margin-right:8px;vertical-align:1px}
+.idx{padding:0 0 clamp(40px,6vw,72px)}
+.idx-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-bottom:1px solid var(--ink);padding-bottom:8px;margin-bottom:16px}
+.idx-head a{font:400 13px var(--mono);text-decoration:none;color:var(--kapton-text)}
+.idx-head a:hover{text-decoration:underline}
+.idx-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,200px),1fr));gap:12px}
+.idx-card{display:flex;flex-direction:column;text-decoration:none;border:1px solid var(--ink);background:var(--paper);transition:transform .2s ease,box-shadow .2s ease}
+.idx-card:hover,.idx-card:focus-visible{transform:translateY(-3px);box-shadow:5px 5px 0 var(--kapton);outline:0}
+.idx-card .th{aspect-ratio:16/10;overflow:hidden;background:var(--ink);border-bottom:1px solid var(--ink);display:grid;place-items:center;color:var(--kapton-light);font:500 12px var(--mono)}
+.idx-card .th{position:relative}
+.idx-card .th img{width:100%;height:100%;object-fit:cover;transform:scale(var(--z,1));transition:transform .5s ease}
+.idx-card:hover .th img{transform:scale(calc(var(--z,1) * 1.06))}
+.idx-row + .idx-row{margin-top:26px}
+.idx-grid.mini{grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:10px}
+.idx-card.mini .th{aspect-ratio:16/10}
+.idx-card.mini .tx{padding:8px 10px 10px;gap:3px}
+.idx-card.mini strong{font-size:14px;line-height:1.2}
+.idx-card.mini .kv{font-size:11px;padding-top:4px}
+.idx-card .crop-btn{position:absolute;right:6px;bottom:6px;z-index:2}
+.idx-card .tx{padding:10px 12px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+.idx-card strong{font:500 16px/1.2 var(--display);font-stretch:108%}
+.idx-card .kv{margin-top:auto;padding-top:6px;font:400 12px var(--mono);color:var(--steel);display:flex;justify-content:space-between;gap:8px}
+.idx-card .kv b{font-weight:500;color:var(--kapton-text);white-space:nowrap}
+@media (max-width:620px){
+  .idx-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:10px;margin-right:calc(-1*clamp(16px,4vw,48px))}
+  .idx-card{flex:0 0 68%;scroll-snap-align:start}
+  .idx-card.mini{flex-basis:46%}
+}
+
+/* Project details dialog and photo viewer */
+.dlg{position:fixed;inset:0;z-index:70;background:rgba(20,24,29,.7);display:flex;align-items:center;justify-content:center;padding:clamp(12px,4vw,40px) clamp(12px,3vw,32px);overscroll-behavior:contain;animation:fade .2s ease}
+.dlg .box{background:var(--bg);border:1.5px solid var(--ink);width:100%;max-width:960px;max-height:100%;display:flex;flex-direction:column;position:relative;animation:rise .25s ease}
+.dlg .hd{flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--ink);background:var(--bg)}
+.dlg .hd .nav{display:flex;gap:6px;margin-left:auto}
+.dlg .nb{font:500 13px var(--mono);background:transparent;color:var(--ink);border:1px solid var(--ink);padding:7px 10px;cursor:pointer}
+.dlg .nb:hover{background:var(--kapton);border-color:var(--kapton)}
+.dlg .ft{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-top:32px;padding-top:16px;border-top:1px solid var(--ink)}
+.dlg .ft .nb{max-width:40%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dlg .x{font:500 13px var(--mono);background:var(--ink);color:#E8EBED;border:0;padding:8px 12px;cursor:pointer}
+.dlg .x:hover{background:var(--kapton);color:var(--ink)}
+.dlg .ct{flex:1 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:clamp(18px,3.5vw,36px)}
+.dlg h2{font-size:clamp(28px,4vw,42px);margin:6px 0 10px}
+.dlg .lead{font-size:18px;max-width:64ch;margin:0 0 22px}
+.dlg .two{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:clamp(20px,3vw,36px);margin-top:24px}
+.dlg .gal{margin-bottom:8px}
+.dlg .figs{--rowh:24cqw}
+.lb{position:fixed;inset:0;z-index:90;background:rgba(10,12,15,.94);display:grid;grid-template-rows:minmax(0,1fr) auto;animation:fade .2s ease}
+.lb .stage{display:grid;place-items:center;padding:56px 64px 8px;min-height:0}
+.lb img{max-width:100%;max-height:100%;object-fit:contain;box-shadow:0 10px 40px rgba(0,0,0,.4)}
+.lb .cap{color:#C5CCD2;font:400 13px var(--mono);text-align:center;padding:10px 16px 18px}
+.lb button{position:absolute;background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.2);font:500 20px var(--mono);width:46px;height:46px;cursor:pointer}
+.lb button:hover{background:var(--kapton);color:var(--ink);border-color:var(--kapton)}
+.lb .close{top:10px;right:10px;font-size:16px}
+.lb .prev{left:10px;top:50%;transform:translateY(-50%)}
+.lb .next{right:10px;top:50%;transform:translateY(-50%)}
+@media (max-width:620px){ .lb .stage{padding:56px 8px 8px} .lb .prev,.lb .next{top:auto;bottom:8px;transform:none} .dlg .two{grid-template-columns:1fr}
+  .dlg{padding:0} .dlg .box{max-width:none;height:100%;max-height:none;border:0} .dlg .hd{padding:8px 10px} .dlg .hd .label{display:none} .dlg .ft .nb{max-width:none;flex:1 1 40%} }
+/* Sections fade in while scrolling (setting: on by default) */
+body.fx #top > .sec:not(.hero),body.fx #top > .idx{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+body.fx #top > .sec.in:not(.hero),body.fx #top > .idx.in{opacity:1;transform:none}
+@keyframes fade{from{opacity:0}}
+@keyframes rise{from{transform:translateY(16px);opacity:0}}
+body.noscroll{overflow:hidden;position:fixed;left:0;right:0;width:100%}
+.cases > .case:nth-of-type(even){grid-template-columns:minmax(0,1.05fr) minmax(0,1fr)}
+.cases > .case:nth-of-type(even) > .side{order:-1}
+.case{scroll-margin-top:70px}
+.cta-row{display:flex;flex-wrap:wrap;gap:12px}
+.side{display:grid;gap:14px;align-content:start}
+
+.figs{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-start;container-type:inline-size;--rowh:30cqw}
+.figs::after{content:"";flex:2 0 0;height:0}
+.figs > .ed-add{flex:1 0 100%}
+.fig{--r:1.3333;margin:0;border:1px solid var(--ink);background:var(--paper);position:relative;flex:var(--r) 1 calc(var(--r) * var(--rowh));min-width:0}
+.fig.wide{flex-basis:100%}
+/* The frame always keeps its exact shape, so the crop looks the same in edit mode and once published.
+   Very tall or wide frames are limited by width (never squashed in height, which would change the crop). */
+.fig{max-width:calc(var(--r) * 78vh)}
+.fig.wide{margin-inline:auto}
+.fig .frame{aspect-ratio:var(--r);position:relative;overflow:hidden}
+.fig img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
+.fig.contain img{object-fit:contain}
+.fig.contain .frame{background:var(--paper)}
+.fig.zoomable .frame{cursor:zoom-in}
+.fig.zoomable:hover img:not([style*="scale"]){transform:scale(1.03)}
+.fig .more{position:absolute;inset:0;display:grid;place-items:center;background:rgba(20,24,29,.62);color:#fff;font:500 clamp(18px,3cqw,26px) var(--mono);pointer-events:none}
+@container (max-width:420px){ .fig{flex-basis:calc(var(--r) * 46cqw)} }
+.fig .empty{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:16px;
+  background:linear-gradient(var(--line),var(--line)) center/1px 100% no-repeat,linear-gradient(var(--line),var(--line)) center/100% 1px no-repeat}
+.fig .empty div{background:var(--paper);padding:10px 14px;font:400 12px/1.5 var(--mono);color:var(--steel);max-width:80%}
+.fig .empty svg{display:block;margin:0 auto 6px;width:22px;height:22px;stroke:var(--steel);fill:none;stroke-width:1.4}
+.fig figcaption{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);padding:5px 10px;font:400 12px var(--mono);color:var(--steel)}
+.fig figcaption span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.editing .fig figcaption span{white-space:normal}
+.fig figcaption b{color:var(--ink);font-weight:500;white-space:nowrap}
+
+.tblock{border:1px solid var(--ink);font-family:var(--mono)}
+.tblock .cells{display:grid;grid-auto-columns:minmax(0,1fr);grid-auto-flow:column}
+.tblock .cell{padding:10px 12px;border-right:1px solid var(--ink);min-width:0}
+.tblock .cell:last-of-type{border-right:0}
+.tblock .cell span{display:block;font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--steel)}
+.tblock .cell strong{display:block;font-weight:500;font-size:clamp(15px,1.8vw,19px);margin-top:2px;overflow-wrap:anywhere}
+.tblock .cell.hl{background:var(--ink)}
+.tblock .cell.hl span{color:var(--line)}
+.tblock .cell.hl strong{color:var(--kapton-light)}
+.tblock .foot{display:flex;justify-content:space-between;gap:12px;border-top:1px solid var(--ink);padding:6px 12px;font-size:11px;color:var(--steel);text-transform:uppercase;letter-spacing:.05em}
+
+.about-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(28px,5vw,64px)}
+.pull{font-family:var(--display);font-stretch:112%;font-size:clamp(26px,3.4vw,38px);line-height:1.15;margin:0}
+.bio p{margin:0 0 16px;max-width:60ch}
+.areas{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--ink);margin-top:clamp(40px,6vw,64px)}
+.area{padding:20px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.area h3{font-size:20px;margin-bottom:8px}
+.area p{margin:0;font-size:15px;color:var(--steel)}
+
+.case{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:clamp(24px,4vw,56px);padding:clamp(40px,6vw,72px) 0;border-top:1px solid var(--line)}
+.cases > .case:first-child{border-top:0;padding-top:0}
+.cases > .case:last-of-type{padding-bottom:0}
+.case h3{font-size:clamp(26px,3.4vw,38px);margin:10px 0 14px}
+.case .meta{display:flex;flex-wrap:wrap;gap:4px 14px;font:400 13px var(--mono);color:var(--steel);margin:0 0 24px;padding:0;list-style:none}
+.case .meta li+li::before{content:"/";margin-right:14px;color:var(--line)}
+.pbo{display:grid;gap:18px;margin-bottom:24px}
+.pbo h4{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;margin:0 0 6px;color:var(--kapton-text)}
+.pbo p{margin:0}
+.pbo ul{margin:6px 0 0;padding-left:18px}
+.pbo li{margin-bottom:6px}
+.pbo li::marker{color:var(--steel)}
+.pbo details summary{cursor:pointer;list-style:none;font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--kapton-text);display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border:1px solid var(--kapton)}
+.pbo details summary::-webkit-details-marker{display:none}
+.pbo details summary::after{content:"+";font-size:14px}
+.pbo details[open] summary::after{content:"−"}
+.pbo details summary:hover{background:rgba(196,127,10,.12)}
+.pbo details[open] summary{margin-bottom:8px}
+.band .pbo details summary{color:var(--kapton-light)}
+.note{font:400 12px var(--mono);color:var(--steel);margin:0}
+
+.band{background:var(--vac);color:#E8EBED;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.band .sec-head{border-color:var(--vac-line)}
+.band .label,.band .case .meta,.band .note,.band .sec-intro,.band .area p,.band .intro{color:var(--vac-muted)}
+.band .case{border-color:var(--vac-line)}
+.band .pbo h4{color:var(--kapton-light)}
+.band .tags li{border-color:var(--vac-line);color:var(--vac-text)}
+.band .fig{background:var(--vac-2);border-color:var(--vac-line)}
+.band .fig figcaption{border-color:var(--vac-line);color:var(--vac-muted)}
+.band .fig figcaption b{color:#E8EBED}
+.band .fig .empty{background:linear-gradient(var(--vac-line),var(--vac-line)) center/1px 100% no-repeat,linear-gradient(var(--vac-line),var(--vac-line)) center/100% 1px no-repeat}
+.band .fig .empty div{background:var(--vac-2);color:var(--vac-muted)}
+.band .fig .empty svg{stroke:var(--vac-muted)}
+.band .tblock,.band .tblock .cell,.band .tblock .foot{border-color:var(--vac-line)}
+.band .tblock .cell span,.band .tblock .foot{color:var(--vac-muted)}
+.band .tblock .cell.hl{background:var(--kapton)}
+.band .tblock .cell.hl span,.band .tblock .cell.hl strong{color:var(--ink)}
+.band .areas,.band .area{border-color:var(--vac-line)}
+.band .proj,.band .edu,.band .edu article,.band .stack,.band .stratum,.band .stratum .lay,.band .timeline,.band .cartouche,.band .cartouche > div{border-color:var(--vac-line)}
+.band .proj{background:var(--vac-2)}
+.band .proj .ro{border-color:var(--vac-line)}
+.band .proj .ro strong,.band .recog li{color:var(--kapton-light)}
+.band .timeline p,.band .edu p,.band .courses li span:last-child{color:var(--vac-muted)}
+.band .timeline .org,.band .edu p strong{color:#E8EBED}
+.band .timeline li::before{background:var(--vac)}
+.band .stratum.edge{background:var(--vac-2)}
+
+.proj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,290px),1fr));gap:clamp(16px,2.4vw,24px)}
+.proj{border:1px solid var(--ink);background:var(--paper);display:flex;flex-direction:column;position:relative}
+body:not(.editing) .proj{cursor:pointer;transition:transform .2s ease,box-shadow .2s ease,border-color .2s}
+body:not(.editing) .proj:hover,body:not(.editing) .proj:focus-visible{transform:translateY(-4px);box-shadow:6px 6px 0 var(--kapton);outline:0}
+.proj .cover{aspect-ratio:16/10;overflow:hidden;position:relative;border-bottom:1px solid var(--ink);background:var(--line)}
+.proj .cover img{width:100%;height:100%;object-fit:cover;transform:scale(var(--z,1));transition:transform .5s ease}
+.proj:hover .cover img{transform:scale(calc(var(--z,1) * 1.05))}
+.proj .cover .crop-btn{position:absolute;left:8px;bottom:8px}
+.proj .cover .count{position:absolute;right:8px;bottom:8px;font:500 11px var(--mono);background:var(--ink);color:#E8EBED;padding:3px 7px;letter-spacing:.04em}
+.proj .cover.none{display:grid;place-items:center;background:var(--ink);color:var(--kapton-light);font:500 13px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.proj .open{font:500 12px var(--mono);letter-spacing:.05em;text-transform:uppercase;color:var(--kapton-text);display:flex;align-items:center;gap:6px;margin-top:2px}
+.proj .open i{font-style:normal;transition:transform .2s}
+.proj:hover .open i{transform:translateX(4px)}
+.proj .clamp{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.proj .figs{padding:12px 12px 0}
+.proj .ed-details{border-top:1px dashed var(--kapton);margin:0 18px;padding:10px 0}
+.proj .ed-details > .label{display:block;margin-bottom:8px;color:var(--kapton-text)}
+.proj .body{padding:18px 18px 16px;display:flex;flex-direction:column;gap:10px;flex:1}
+.proj h3{font-size:21px;font-stretch:112%}
+.proj .ctx{font:400 12px var(--mono);color:var(--steel)}
+.proj p{margin:0;font-size:15px}
+.proj .ro{display:flex;justify-content:space-between;align-items:baseline;gap:12px;border-top:1px solid var(--ink);padding:8px 18px;font-family:var(--mono)}
+.proj .ro span{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--steel)}
+.proj .ro strong{font-weight:500;color:var(--kapton-text)}
+.proj .tags{margin-top:auto}
+
+.timeline{list-style:none;margin:0;padding:0;border-left:1.5px solid var(--ink);margin-left:6px}
+.timeline > li{position:relative;padding:0 0 32px 28px;display:grid;grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:8px 32px}
+.timeline > li::before{content:"";position:absolute;left:-7px;top:6px;width:12px;height:12px;background:var(--bg);border:1.5px solid var(--steel)}
+.timeline > li.major::before{background:var(--kapton);border-color:var(--kapton)}
+.timeline .when{font:400 13px var(--mono);color:var(--steel)}
+.timeline .org{font:500 13px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--ink);display:block}
+.timeline h3{font-family:var(--body);font-stretch:100%;font-size:19px;margin:0 0 4px}
+.timeline p{margin:0;color:var(--steel);font-size:15px}
+.with-logo{display:flex;gap:16px;align-items:flex-start}
+.with-logo > div:last-child{min-width:0;flex:1}
+.logo-box{flex:none;width:56px;height:56px;border:1px solid var(--ink);background:#fff;position:relative;overflow:hidden;display:grid;place-items:center}
+.logo-box:not(.has){background:var(--paper);border-style:dashed;border-color:var(--steel)}
+.logo-box span{font:400 10px var(--mono);color:var(--steel);text-transform:uppercase;letter-spacing:.04em}
+.logo-box.has{border:0;background:transparent}
+.logo-box img{width:100%;height:100%;object-fit:contain;transform:scale(var(--z,1))}
+.logo-box.fill img{object-fit:cover}
+.logo-box .logo-c{position:absolute;bottom:0;right:0;padding:0 4px;line-height:15px;min-height:0;font-size:10px;opacity:0}
+body.editing .logo-box:hover .logo-c,body.editing .logo-box:hover .logo-x{opacity:1}
+.logo-box.drop{outline:3px solid var(--kapton);outline-offset:-3px}
+body.editing .logo-box{cursor:pointer}
+body.editing .logo-box:hover{outline:2px solid var(--kapton);outline-offset:-2px}
+.logo-box .logo-x{position:absolute;top:0;right:0;padding:0 5px;line-height:16px;min-height:0}
+.band .logo-box{border-color:var(--vac-line)}
+.band .logo-box.has{background:transparent}
+.band .logo-box:not(.has){background:var(--vac-2)}
+.band .logo-box span{color:var(--vac-muted)}
+
+.stack{border:1px solid var(--ink)}
+.stratum{display:grid;grid-template-columns:180px minmax(0,1fr);border-bottom:1px solid var(--ink)}
+.stack > .stratum:last-of-type{border-bottom:0}
+.stratum .lay{padding:14px 16px;border-right:1px solid var(--ink);font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.stratum .its{padding:12px 16px;display:flex;flex-wrap:wrap;gap:6px 0;align-items:center;font-size:15px;list-style:none;margin:0}
+.stratum .its li:not(:last-of-type)::after{content:"/";color:var(--line);margin:0 12px}
+.stratum.edge{background:var(--ink);color:#E8EBED}
+.stratum.edge .lay{color:var(--kapton-light);border-color:var(--vac-line)}
+
+.edu{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--ink)}
+.edu article{padding:20px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink)}
+.edu h3{font-family:var(--body);font-stretch:100%;font-size:17px;margin:6px 0 6px}
+.edu p{margin:0;font-size:15px;color:var(--steel)}
+.edu p strong{color:var(--ink);font-weight:500}
+.sub{margin-top:clamp(28px,4vw,40px)}
+.sub > .label{display:block;margin-bottom:10px}
+.courses{list-style:none;margin:0;padding:0;columns:2 340px;column-gap:40px}
+.courses li{display:flex;justify-content:space-between;gap:16px;break-inside:avoid;border-bottom:1px solid var(--line);padding:7px 0;font-size:15px}
+.courses li span:last-child{font-family:var(--mono);color:var(--kapton-text)}
+.pub{border-left:3px solid var(--kapton);padding:6px 0 6px 16px;max-width:80ch;font-size:15px;margin:0 0 10px}
+.recog{display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0;padding:0}
+.recog li{font:400 13px var(--mono);border:1px solid var(--kapton);color:var(--kapton-text);padding:5px 10px}
+
+.text-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,4vw,56px)}
+.text-grid.solo{grid-template-columns:minmax(0,1fr)}
+.prose p{margin:0 0 16px;max-width:64ch}
+
+.contact-title{font-size:clamp(34px,6vw,72px);max-width:16ch;margin-bottom:20px}
+.contact .lead{max-width:56ch;margin:0 0 36px;font-size:18px}
+.cartouche{display:grid;grid-template-columns:1.4fr 1.3fr .6fr;border:1.5px solid var(--ink);font-family:var(--mono)}
+.cartouche > div{padding:14px 16px;border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);min-width:0}
+.cartouche > div:nth-child(3n){border-right:0}
+.cartouche > div.last{border-bottom:0}
+.cartouche span.k{display:block;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--steel);margin-bottom:4px}
+.cartouche strong,.cartouche a{font-weight:500;font-size:15px;overflow-wrap:anywhere}
+.cartouche .big strong{font-family:var(--display);font-stretch:125%;font-size:26px}
+.cartouche .accent{background:var(--kapton)}
+.cartouche .accent span.k{color:var(--ink)}
+.copy-btn{font:400 12px var(--mono);background:none;border:1px solid var(--ink);padding:3px 8px;margin-left:8px;cursor:pointer;color:var(--ink)}
+
+@media (max-width:900px){
+  .hero-grid,.about-grid,.case,.cases > .case:nth-of-type(even),.text-grid{grid-template-columns:minmax(0,1fr)}
+  .cases > .case:nth-of-type(even) > .side{order:0}
+  .timeline > li{grid-template-columns:1fr}
+}
+@media (max-width:620px){
+  body{font-size:16px}
+  nav.top ul li:not(.cta-li){display:none}
+  .ruler{grid-template-columns:repeat(4,1fr)}
+  .ruler span:nth-child(n+5){display:none}
+  .stratum{grid-template-columns:1fr}
+  .stratum .lay{border-right:0;border-bottom:1px solid var(--line);padding-bottom:8px}
+  .stratum.edge .lay{border-color:var(--vac-line)}
+  .cartouche{grid-template-columns:1fr}
+  .cartouche > div{border-right:0!important;border-bottom:1px solid var(--ink)!important}
+  .cartouche > div:last-child{border-bottom:0!important}
+  .tblock .cells{grid-auto-flow:row;grid-template-columns:repeat(2,minmax(0,1fr))}
+  .tblock .cell{border-bottom:1px solid var(--ink)}
+  .proj-grid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+}
+
+/* ---------- Editor (only active with #edit) ---------- */
+body.editing{padding-bottom:90px}
+body.editing [data-path]{outline:1px dashed transparent;outline-offset:2px;cursor:text;min-width:2ch;border-radius:1px}
+body.editing [data-path]:hover{outline-color:var(--kapton)}
+body.editing [data-path]:focus{outline:2px solid var(--kapton);background:rgba(196,127,10,.10)}
+body.editing [data-path]:empty::before{content:attr(data-ph);color:var(--steel);opacity:.75;font-style:italic}
+body.editing .ed-item{position:relative}
+.ed-tools{position:absolute;top:-14px;right:-4px;display:none!important;gap:2px;z-index:6;flex-wrap:wrap;justify-content:flex-end;margin:0!important;padding:0!important;background:none!important}
+body.editing .ed-item:hover > .ed-tools,body.editing .ed-item:focus-within > .ed-tools{display:flex!important}
+.ed-tools::after,.ed-tools::before{content:none!important}
+.ed-btn{font:500 11px/1 var(--mono);background:var(--ink);color:#E8EBED;border:1px solid var(--ink);padding:4px 6px;cursor:pointer;white-space:nowrap}
+.ed-btn:hover{background:var(--kapton);color:var(--ink);border-color:var(--kapton)}
+.ed-btn.on{background:var(--kapton);color:var(--ink);border-color:var(--kapton)}
+.ed-btn.danger:hover,.ed-btn.armed{background:#B3261E;border-color:#B3261E;color:#fff}
+.band .ed-btn{border-color:var(--vac-line)}
+.ed-add{font:400 12px var(--mono);border:1px dashed var(--kapton);background:transparent;color:var(--kapton-text);padding:6px 10px;cursor:pointer;margin:8px 0;align-self:flex-start;justify-self:start}
+.band .ed-add{color:var(--kapton-light)}
+.ed-add:hover{background:rgba(196,127,10,.12)}
+.pbo .ed-item > .ed-add{opacity:0;transition:opacity .15s}
+.pbo .ed-item:hover > .ed-add,.pbo .ed-item:focus-within > .ed-add{opacity:1}
+.tags .ed-add,.recog .ed-add,.meta .ed-add,.its .ed-add{margin:0;padding:2px 8px}
+.its .ed-add::after,.meta .ed-add::before{content:none!important}
+body.editing .fig .frame{cursor:pointer}
+body.editing .fig .frame::after{content:"Click or drop an image";position:absolute;left:8px;top:8px;font:400 11px var(--mono);background:var(--ink);color:#E8EBED;padding:3px 6px;opacity:0;transition:opacity .15s}
+body.editing .fig .frame:hover::after{opacity:1}
+body.editing .fig .frame:has(img)::after{content:"Drag to move · click to replace"}
+body.editing .fig .frame img{cursor:grab;touch-action:none;user-select:none}
+body.editing .fig .frame.panning img{cursor:grabbing}
+body.editing .fig .frame.panning::after{opacity:0}
+.fig.drop .frame{outline:3px solid var(--kapton);outline-offset:-3px}
+.ed-secbar{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:0 0 18px;padding:8px;border:1px dashed var(--kapton);font:400 12px var(--mono);background:rgba(196,127,10,.06)}
+.ed-secbar .t{color:var(--kapton-text);text-transform:uppercase;letter-spacing:.06em;margin-right:6px}
+.band .ed-secbar .t{color:var(--kapton-light)}
+.ed-secbar input{font:400 12px var(--mono);padding:3px 6px;border:1px solid var(--line);width:120px;background:#fff;color:var(--ink)}
+.ed-secbar .sp{flex:1}
+.sec.is-hidden{opacity:.45}
+.ed-addsec{display:flex;justify-content:center;gap:6px;padding:10px 0;font:400 12px var(--mono)}
+.ed-addsec select{font:400 12px var(--mono);padding:4px;border:1px solid var(--line);background:#fff}
+.ed-bar{position:fixed;left:50%;bottom:14px;transform:translateX(-50%);z-index:50;display:flex;flex-wrap:wrap;align-items:center;gap:6px;background:var(--ink);color:#E8EBED;padding:8px 10px;font:400 12px var(--mono);border:1px solid var(--kapton);max-width:calc(100vw - 20px)}
+.ed-bar .ed-btn{border-color:#3a434c;padding:7px 10px;font-size:12px}
+.ed-bar .ed-btn.primary{background:var(--kapton);color:var(--ink);border-color:var(--kapton)}
+.ed-bar .msg{color:var(--kapton-light);padding:0 6px}
+.ed-panel{position:fixed;inset:0;z-index:60;background:rgba(20,24,29,.55);display:flex;align-items:center;justify-content:center;padding:16px}
+.ed-panel .box{background:var(--bg);border:1.5px solid var(--ink);max-width:560px;width:100%;max-height:90vh;overflow:auto;padding:22px;font-size:15px}
+.ed-panel h2{font-size:24px;margin-bottom:16px}
+.ed-panel label{display:block;margin:0 0 12px;font:400 12px var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--steel)}
+.ed-panel input[type=text],.ed-panel textarea{display:block;width:100%;margin-top:4px;font:400 15px var(--body);padding:8px;border:1px solid var(--ink);background:#fff;color:var(--ink);text-transform:none;letter-spacing:0}
+.ed-panel .row{display:flex;gap:10px;align-items:center;margin:0 0 12px;font-size:14px}
+.ed-panel .help{font-size:14px;color:var(--steel);margin:0 0 10px}
+.ed-panel .help li{margin-bottom:6px}
+.ed-sel{font:400 11px var(--mono);padding:2px;max-width:130px}
+.crop-stage{position:relative;overflow:hidden;margin:0 auto 14px;border:1px solid var(--ink);background:repeating-conic-gradient(#d9dee2 0 25%,#f4f6f7 0 50%) 0 0/16px 16px;cursor:grab;touch-action:none;user-select:none}
+.crop-stage.dragging{cursor:grabbing}
+.crop-stage img{width:100%;height:100%;pointer-events:none}
+.crop-stage::after{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)) 33.33% 0/1px 100% no-repeat,linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)) 66.66% 0/1px 100% no-repeat,linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)) 0 33.33%/100% 1px no-repeat,linear-gradient(rgba(255,255,255,.35),rgba(255,255,255,.35)) 0 66.66%/100% 1px no-repeat}
+.ed-panel input[type=range]{flex:1}
+</style>
+<!--/tl:head-->
+</head>
+<body>
+<!--tl:body-->
+<div class="sheet" id="sheet">
+  <div class="ruler" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+  <nav class="top" aria-label="Main"><div class="wrap" id="nav"></div></nav>
+  <main id="top"></main>
+  <div class="ruler bottom" aria-hidden="true"><span>A</span><span>B</span><span>C</span><span>D</span><span>E</span><span>F</span></div>
+</div>
+<input type="file" id="ed-file" accept="image/*" hidden>
+
+<script>
+(function(){
+"use strict";
+/* Snapshot of the page before anything is rendered: Publish rebuilds the file from it. */
+const PRISTINE = '<!DOCTYPE html>\n' + document.documentElement.outerHTML;
+const DATA_EL = document.getElementById('site-data');
+const FILE_JSON = DATA_EL.textContent;
+let SAVED_JSON = FILE_JSON;
+let S = JSON.parse(FILE_JSON);
+let EDIT = false, PREVIEW = false;
+const DRAFT_KEY = 'tl-portfolio-draft';
+const undoStack = [];
+
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function fmt(s){
+  let h = esc(s);
+  h = h.replace(/\[([^\]]+)\]\((https?:[^)\s]+|mailto:[^)\s]+|#[^)\s]*)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>');
+  h = h.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  return h;
+}
+function parts(path){ return path.split('.').map(p => /^\d+$/.test(p) ? +p : p); }
+function get(path){ return parts(path).reduce((o,k) => o == null ? undefined : o[k], S); }
+function set(path, v){ const p = parts(path); const last = p.pop(); const o = p.reduce((o,k) => o[k], S); o[last] = v; }
+const CE = (() => { const d = document.createElement('div'); try{ d.contentEditable = 'plaintext-only'; }catch(e){} return d.contentEditable === 'plaintext-only' ? 'plaintext-only' : 'true'; })();
+const uid = () => 's' + Math.random().toString(36).slice(2,8);
+const editing = () => EDIT && !PREVIEW;
+
+/* Editable text. In view mode empty values render nothing. */
+function T(tag, path, cls, ph, multi){
+  const v = get(path); const val = v == null ? '' : String(v);
+  if(!editing()) return val ? '<'+tag+(cls?' class="'+cls+'"':'')+'>'+fmt(val)+'</'+tag+'>' : '';
+  return '<'+tag+(cls?' class="'+cls+'"':'')+' data-path="'+path+'" contenteditable="'+CE+'" spellcheck="true" data-ph="'+esc(ph||'Type here')+'"'+(multi?' data-multi="1"':'')+'>'+esc(val)+'</'+tag+'>';
+}
+/* Per-item toolbar: move, delete, toggles. */
+function tools(arr, i, opts){
+  if(!editing()) return '';
+  opts = opts || {}; const item = get(arr+'.'+i);
+  let h = '<span class="ed-tools" contenteditable="false">';
+  if(!opts.mini){
+    h += '<button class="ed-btn" data-act="up" data-arr="'+arr+'" data-i="'+i+'" title="Move up / left">↑</button>';
+    h += '<button class="ed-btn" data-act="down" data-arr="'+arr+'" data-i="'+i+'" title="Move down / right">↓</button>';
+  } else {
+    h += '<button class="ed-btn" data-act="up" data-arr="'+arr+'" data-i="'+i+'" title="Move left">←</button>';
+  }
+  (opts.toggles || []).forEach(t => {
+    const [f, label] = t;
+    h += '<button class="ed-btn'+(item && item[f] ? ' on' : '')+'" data-act="toggle" data-arr="'+arr+'" data-i="'+i+'" data-f="'+f+'">'+label+'</button>';
+  });
+  if(opts.extra) h += opts.extra;
+  h += '<button class="ed-btn danger" data-act="del" data-arr="'+arr+'" data-i="'+i+'" title="Delete">✕</button></span>';
+  return h;
+}
+function A(arr, kind, label){
+  return editing() ? '<button class="ed-add" data-act="add" data-arr="'+arr+'" data-kind="'+kind+'">+ '+esc(label)+'</button>' : '';
+}
+const IT = () => editing() ? ' ed-item' : '';
+
+/* ---------- templates for new items ---------- */
+const NEW = {
+  str: () => 'New item', para: () => 'New paragraph.', tag: () => 'Tag', meta: () => 'Detail',
+  area: () => ({ title: 'New area', text: 'What you do here.' }),
+  fig: () => ({ kind: 'photo', label: 'View', caption: 'Caption', src: '', wide: false, contain: false, pos: 'center' }),
+  cell: () => ({ label: 'Label', value: 'Value', hl: false }),
+  block: () => ({ heading: 'Heading', text: 'Text.', bullets: [] }),
+  bullet: () => 'New point.',
+  case: () => ({ dwg: 'DWG TL-1xx', rev: 'Rev A', title: 'New project', meta: ['Context', 'Role', 'Dates'],
+    blocks: [{ heading: 'Problem', text: 'What needed solving.', bullets: [] }, { heading: 'Built', text: '', bullets: ['What you did.'] }, { heading: 'Outcome', text: 'What it achieved.', bullets: [] }],
+    tags: ['Tag'], figures: [{ kind: 'photo', label: 'View A', caption: 'Photo', src: '', wide: true, contain: false, pos: 'center' }],
+    readout: [{ label: 'Predicted', value: '–', hl: false }, { label: 'Measured', value: '–', hl: false }, { label: 'Result', value: '–', hl: true }], note: '' }),
+  proj: () => ({ title: 'New project', context: 'Where · team', text: 'One or two lines about it.', roLabel: 'Result', roValue: '–', tags: ['Tag'],
+    figures: [{ kind: 'photo', label: 'View A', caption: 'Photo', src: '', wide: true, contain: false, pos: 'center' }] }),
+  job: () => ({ dates: 'Dates', org: 'Organisation', role: 'Role', text: 'What you did.', major: false, logo: { src: '' } }),
+  layer: () => ({ name: 'Layer', items: ['Skill'], edge: false }),
+  edu: () => ({ dates: 'Dates', degree: 'Degree', school: 'School', detail: 'Detail.', logo: { src: '' } }),
+  course: () => ({ name: 'Course', grade: '6' }),
+  pub: () => 'Authors, *Title*, Venue, Year.',
+  recog: () => 'New recognition'
+};
+const SECTION_NEW = {
+  text: () => ({ heading: 'New section', tag: '', paragraphs: ['Write something here.'], figures: [] }),
+  cases: () => ({ heading: 'Case studies', tag: '', intro: '', items: [NEW.case()] }),
+  projects: () => ({ heading: 'Projects', tag: '', items: [NEW.proj()] }),
+  timeline: () => ({ heading: 'Timeline', tag: '', items: [NEW.job()] }),
+  stack: () => ({ heading: 'Skills', tag: '', layers: [NEW.layer()] }),
+  education: () => ({ heading: 'Education', tag: '', items: [NEW.edu()], coursesLabel: 'Courses', courses: [], pubLabel: 'Publications', publications: [], recognition: [] }),
+  about: () => ({ heading: 'About', tag: '', pull: 'A short line about you.', bio: ['A paragraph.'], areas: [] }),
+  contact: () => ({ heading: 'Contact', tag: '', title: 'Get in touch', lead: 'A line about what you want to hear about.', rev: '2026', sheet: '1 / 1' })
+};
+const TYPE_NAMES = { text: 'Text and images', cases: 'Case studies', projects: 'Project cards', timeline: 'Timeline', stack: 'Skills stack', education: 'Education and courses', about: 'About', contact: 'Contact' };
+
+/* ---------- figures and readouts ---------- */
+const ICONS = {
+  photo: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13"/><circle cx="12" cy="12.5" r="3.5"/><path d="M8 6l1.5-2h5L16 6"/></svg>',
+  diagram: '<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><path d="M10 6.5h4.5V14"/></svg>'
+};
+const POS_KW = { center: [50,50], top: [50,0], bottom: [50,100], left: [0,50], right: [100,50] };
+function posXY(pos){
+  if(POS_KW[pos]) return POS_KW[pos].slice();
+  const m = String(pos || '').match(/(-?[\d.]+)%\s+(-?[\d.]+)%/);
+  return m ? [+m[1], +m[2]] : [50,50];
+}
+/* Frame shapes. "auto" follows the photo's own proportions, so nothing is cropped. */
+const SHAPES = [['', 'Frame: standard'], ['auto', 'Frame: whole photo'], ['4:3', 'Frame: 4:3'], ['3:2', 'Frame: 3:2'], ['16:9', 'Frame: 16:9 wide'], ['21:9', 'Frame: panorama'], ['1:1', 'Frame: square'], ['4:5', 'Frame: 4:5 portrait'], ['3:4', 'Frame: 3:4 portrait'], ['9:16', 'Frame: tall']];
+function ratioOf(f, wide){
+  const s = f.shape;
+  if(s === 'auto') return +f.ratio > 0 ? +f.ratio : 4/3;
+  const m = String(s || '').match(/^(\d+):(\d+)$/);
+  if(m) return +m[1] / +m[2];
+  return wide ? 16/9 : 4/3;
+}
+const isPlaceholder = c => !c || /^\s*(caption|photo|view)?\s*$/i.test(c);
+/* Photos are plain files in the images/ folder next to this page.
+   Photos added in edit mode stay in memory (NEW_IMG) until Publish sends them to GitHub. */
+const NEW_IMG = {};
+const NEWIMG_KEY = 'tl-portfolio-newimg';
+try{ Object.assign(NEW_IMG, JSON.parse(localStorage.getItem(NEWIMG_KEY) || '{}')); }catch(e){}
+const url = src => { src = String(src || ''); return NEW_IMG[src] || src.replace(/^\/images\//, 'images/'); };
+function imgSrc(src){ return 'src="'+esc(url(src))+'"'; }
+/* Crop = which point stays visible (pos) and how far it is zoomed in (zoom). */
+function cropStyle(c){
+  c = c || {};
+  const xy = posXY(c.pos), z = +c.zoom > 1 ? +c.zoom : 1;
+  return 'object-position:'+xy[0]+'% '+xy[1]+'%;transform-origin:'+xy[0]+'% '+xy[1]+'%'+(z > 1 ? ';--z:'+z : '');
+}
+/* Card thumbnails (top of page and project cards) use their own crop, centred by default. */
+const COVER_R = 16/10;
+function coverOf(item){
+  const ph = (item.figures || []).find(f => f.src);
+  return ph ? { src: ph.src, crop: item.cover || {} } : null;
+}
+function coverImg(item, sizes, maxW){
+  const c = coverOf(item);
+  return c ? '<img '+imgSrc(c.src, sizes, maxW)+' alt="" loading="lazy" draggable="false" style="'+cropStyle(c.crop)+'">' : '';
+}
+const cropBtn = (path, src, ratio, label, cls) => editing() && src ? '<button class="ed-btn '+(cls || 'crop-btn')+'" type="button" data-act="crop" data-path="'+path+'.cover" data-src="'+esc(src)+'" data-r="'+ratio+'" title="Recrop this card photo (centred by default)">'+(label || 'Recrop')+'</button>' : '';
+function figs(arr, opts){
+  opts = opts || {};
+  const list = get(arr) || [];
+  const shown = list.map((f,i) => [f,i]).filter(([f]) => editing() || f.src || !S.meta.hideEmptyFigures);
+  if(!shown.length && !editing()) return '';
+  const limit = !editing() && opts.limit && shown.length > opts.limit ? opts.limit : 0;
+  const visible = limit ? shown.slice(0, limit) : shown;
+  let h = '<div class="figs" data-group="'+arr+'">';
+  // Frame shapes follow what visitors see (empty frames may be hidden from them),
+  // so a photo keeps the same shape and crop in edit mode and on the published site.
+  const pubCount = list.filter(f => f.src || !S.meta.hideEmptyFigures).length;
+  visible.forEach(([f,i], n) => {
+    const p = arr+'.'+i;
+    const wide = f.wide || pubCount === 1 || (!f.src && shown.length === 1);
+    const r = ratioOf(f, wide);
+    const pos = f.pos || 'center';
+    const xy = posXY(pos), zoom = +f.zoom > 1 ? +f.zoom : 1;
+    const istyle = 'object-position:'+xy[0]+'% '+xy[1]+'%'+(zoom > 1 ? ';transform:scale('+zoom+');transform-origin:'+xy[0]+'% '+xy[1]+'%' : '');
+    const more = limit && n === visible.length - 1 ? shown.length - limit : 0;
+    const inner = f.src
+      ? '<img '+imgSrc(f.src, wide ? '(max-width:1160px) 100vw, 1120px' : '(max-width:900px) 100vw, 560px')+' alt="'+esc(isPlaceholder(f.caption) ? '' : f.caption)+'" loading="lazy" draggable="false" style="'+istyle+'">' + (more ? '<span class="more">+'+more+' photos</span>' : '')
+      : '<div class="empty"><div>'+(ICONS[f.kind] || ICONS.photo)+esc(f.caption || '')+'</div></div>';
+    const extra = editing()
+      ? '<button class="ed-btn'+(f.wide?' on':'')+'" data-act="toggle" data-arr="'+arr+'" data-i="'+i+'" data-f="wide" title="Full width">Wide</button>'
+      + '<select class="ed-sel" data-act="shape" data-path="'+p+'" title="Frame shape">'+SHAPES.map(([v,l]) => '<option value="'+v+'"'+((f.shape||'') === v ? ' selected' : '')+'>'+l+'</option>').join('')+'</select>'
+      + '<button class="ed-btn'+(f.contain?' on':'')+'" data-act="toggle" data-arr="'+arr+'" data-i="'+i+'" data-f="contain" title="Show the whole image inside the frame (good for diagrams)">Fit</button>'
+      + (f.src ? '<button class="ed-btn" data-act="crop" data-path="'+p+'" data-src="'+esc(f.src)+'" data-r="'+r.toFixed(4)+'" data-fit="'+(f.contain ? 'contain' : 'cover')+'" title="Open the crop tool: drag and zoom">Recrop</button>' : '')
+      + '<button class="ed-btn" data-act="pos" data-path="'+p+'" title="Crop position (or drag the photo inside the frame)">Crop: '+esc(/%/.test(pos) ? 'custom' : pos)+'</button>'
+      + (f.src ? '<button class="ed-btn" data-act="zoom" data-d="-1" data-path="'+p+'" title="Zoom out">−</button>'
+        + '<button class="ed-btn" data-act="zoom" data-d="1" data-path="'+p+'" title="Zoom in">+'+(zoom > 1 ? ' '+zoom.toFixed(1)+'×' : '')+'</button>' : '')
+      + '<button class="ed-btn" data-act="kind" data-path="'+p+'" title="Placeholder icon">'+(f.kind === 'diagram' ? 'Diagram' : 'Photo')+'</button>'
+      + (f.src ? '<button class="ed-btn" data-act="clearimg" data-path="'+p+'">Remove image</button>' : '')
+      : '';
+    let cap = '';
+    if(editing()) cap = '<figcaption>'+T('b', p+'.label', '', 'Label') + T('span', p+'.caption', '', 'Caption')+'</figcaption>';
+    else if(f.src && !isPlaceholder(f.caption) && !opts.nocap) cap = '<figcaption><span>'+esc(f.caption)+'</span>'+(f.label && !/^view$/i.test(f.label) ? '<b>'+esc(f.label)+'</b>' : '')+'</figcaption>';
+    else if(!f.src) cap = '<figcaption><b>'+esc(f.label)+'</b><span>'+(f.kind === 'diagram' ? 'Diagram to add' : 'Photo to add')+'</span></figcaption>';
+    h += '<figure class="fig'+(wide?' wide':'')+(f.contain?' contain':'')+(!editing() && f.src ? ' zoomable' : '')+IT()+'" data-fig="'+p+'"'+(f.shape === 'auto' ? ' data-auto="1"' : '')+' style="--r:'+r.toFixed(4)+'"><div class="frame"'+(editing()?' data-act="img" data-path="'+p+'" title="Click or drop an image"':'')+'>'+inner+'</div>'+cap
+      + tools(arr, i, { extra }) + '</figure>';
+  });
+  h += A(arr, 'fig', opts.addLabel || 'Add image or diagram') + '</div>';
+  return h;
+}
+/* Photos with an "auto" frame take the photo's real proportions once it has loaded. */
+document.addEventListener('load', e => {
+  const img = e.target;
+  if(!img || img.tagName !== 'IMG' || !img.naturalWidth) return;
+  const fig = img.closest('.fig[data-auto]');
+  if(!fig) return;
+  const r = Math.round(img.naturalWidth / img.naturalHeight * 1000) / 1000;
+  fig.style.setProperty('--r', r);
+  const f = get(fig.dataset.fig);
+  if(editing() && f && Math.abs((+f.ratio || 0) - r) > 0.01){ f.ratio = r; saveDraft(); }
+}, true);
+function logoBox(q, alt){
+  const l = get(q+'.logo'), src = l && l.src;
+  if(!src && !editing() && S.meta.hideEmptyFigures) return '';
+  const inner = src ? '<img '+imgSrc(src, '112px', 320)+' alt="'+esc(alt || 'Logo')+'" loading="lazy" draggable="false" style="'+cropStyle(l)+'">' : '<span>Logo</span>';
+  return '<div class="logo-box'+(src?' has':'')+(l && l.fit === 'cover' ? ' fill' : '')+'" data-logo="'+q+'"'+(editing() ? ' data-act="logo" data-path="'+q+'" title="Click or drop a square logo"' : '')+'>'+inner
+    + (editing() && src ? '<button class="ed-btn logo-x" data-act="clearlogo" data-path="'+q+'" title="Remove logo">×</button>'
+      + '<button class="ed-btn logo-c" data-act="crop" data-path="'+q+'.logo" data-src="'+esc(src)+'" data-r="1" data-fit="'+(l.fit === 'cover' ? 'cover' : 'contain')+'" data-logo="1" title="Recrop or centre the logo">Crop</button>' : '')+'</div>';
+}
+function readout(arr, captionPath, revPath){
+  const cells = get(arr) || [];
+  if(!cells.length && !editing()) return '';
+  let h = '<div class="tblock"><div class="cells">';
+  cells.forEach((c,i) => {
+    h += '<div class="cell'+(c.hl?' hl':'')+IT()+'">'+T('span', arr+'.'+i+'.label', '', 'Label')+T('strong', arr+'.'+i+'.value', '', 'Value')
+      + tools(arr, i, { toggles: [['hl', 'Highlight']] }) + '</div>';
+  });
+  h += '</div>';
+  if(editing()) h += '<div style="padding:0 8px">'+A(arr, 'cell', 'Add cell')+'</div>';
+  if(!captionPath) return h + '</div>';
+  const cap = String(get(captionPath) || '').trim(), rev = String(get(revPath) || '').trim();
+  if(editing() || cap) h += '<div class="foot">'+(T('span', captionPath, '', 'Drawing number') || '<span></span>')+(T('span', revPath, '', 'Rev') || '<span></span>')+'</div>';
+  return h + '</div>';
+}
+function chips(arr, cls, kind, label, tag){
+  const list = get(arr) || [];
+  if(!list.length && !editing()) return '';
+  tag = tag || 'ul';
+  return '<'+tag+' class="'+cls+'">' + list.map((t,i) => '<li class="'+IT()+'">'+T('span', arr+'.'+i, '', 'Text')+tools(arr, i, { mini: true })+'</li>').join('') + (editing() ? '<li style="list-style:none">'+A(arr, kind, label)+'</li>' : '') + '</'+tag+'>';
+}
+
+/* ---------- sections ---------- */
+function secHead(p){
+  const s = get(p);
+  if(!editing() && !s.heading && !s.tag) return '';
+  return '<div class="sec-head">'+T('h2', p+'.heading', '', 'Section title')+T('span', p+'.tag', 'label', 'Small label')+'</div>';
+}
+const R = {};
+R.about = p => {
+  const s = get(p);
+  let h = secHead(p) + '<div class="about-grid">'+T('p', p+'.pull', 'pull', 'A strong line', true)+'<div class="bio">';
+  s.bio.forEach((b,i) => { h += '<div class="'+IT()+'">'+T('p', p+'.bio.'+i, '', 'Paragraph', true)+tools(p+'.bio', i)+'</div>'; });
+  h += A(p+'.bio', 'para', 'Add paragraph') + '</div></div>';
+  if(s.areas.length || editing()){
+    h += '<div class="areas">' + s.areas.map((a,i) => '<div class="area'+IT()+'">'+T('h3', p+'.areas.'+i+'.title', '', 'Title')+T('p', p+'.areas.'+i+'.text', '', 'Text', true)+tools(p+'.areas', i)+'</div>').join('') + '</div>' + A(p+'.areas', 'area', 'Add area');
+  }
+  return h;
+};
+function caseHTML(sp, i){
+  const p = sp+'.items.'+i, c = get(p);
+  let move = '';
+  if(editing()){
+    const others = S.sections.map((s,k) => [s,k]).filter(([s,k]) => s.type === 'cases' && 'sections.'+k !== sp);
+    if(others.length) move = '<select class="ed-sel" data-act="moveto" data-path="'+p+'" data-from="'+sp+'" data-i="'+i+'"><option value="">Move to…</option>'+others.map(([s,k]) => '<option value="'+k+'">'+esc(s.heading || TYPE_NAMES.cases+' '+(k+1))+'</option>').join('')+'</select>';
+  }
+  if(editing()) move += '<span class="ed-sw" title="Main = full case study on the page · Secondary = smaller card that opens a window"><button class="ed-btn on" type="button" disabled>Main</button><button class="ed-btn" type="button" data-act="tocard" data-from="'+sp+'" data-i="'+i+'">Secondary</button></span>' + cropBtn(p, (coverOf(c) || {}).src, COVER_R, 'Card photo', ' ');
+  let h = '<article class="case'+IT()+'" id="'+caseId(sp, i)+'">'+tools(sp+'.items', i, { extra: move });
+  h += '<div>' + T('span', p+'.dwg', 'label', 'Drawing number') + T('h3', p+'.title', '', 'Project title');
+  h += chips(p+'.meta', 'meta', 'meta', 'Add detail');
+  h += blocksHTML(p, true);
+  h += chips(p+'.tags', 'tags', 'tag', 'Tag');
+  h += '</div><div class="side">' + figs(p+'.figures', { limit: 4 }) + readout(p+'.readout', p+'.dwg', p+'.rev') + T('p', p+'.note', 'note', 'Note (optional)', true) + '</div></article>';
+  return h;
+}
+const caseId = (sp, i) => 'p-' + (get(sp).id || sp.replace(/\W/g, '')) + '-' + i;
+/* Problem / Built / Outcome blocks. For visitors, long bullet lists fold behind a button so the page stays short. */
+function blocksHTML(p, fold){
+  const list = get(p+'.blocks') || [];
+  if(!list.length && !editing()) return '';
+  let h = '<div class="pbo">';
+  list.forEach((b,j) => {
+    const bp = p+'.blocks.'+j;
+    const bullets = b.bullets || [];
+    if(!editing() && fold && bullets.length > 1){
+      h += '<details><summary>'+esc(b.heading || 'Details')+' · '+bullets.length+' points</summary>'+(b.text ? '<p>'+fmt(b.text)+'</p>' : '')
+        + '<ul>'+bullets.map(x => '<li>'+fmt(x)+'</li>').join('')+'</ul></details>';
+      return;
+    }
+    h += '<div class="'+IT()+'">'+T('h4', bp+'.heading', '', 'Heading')+T('p', bp+'.text', '', 'Text (optional)', true);
+    if(bullets.length || editing()){
+      h += '<ul>' + bullets.map((x,k) => '<li class="'+IT()+'">'+T('span', bp+'.bullets.'+k, '', 'Point', true)+tools(bp+'.bullets', k)+'</li>').join('') + '</ul>' + A(bp+'.bullets', 'bullet', 'Add bullet');
+    }
+    h += tools(p+'.blocks', j) + '</div>';
+  });
+  return h + '</div>' + A(p+'.blocks', 'block', 'Add text block');
+}
+R.cases = p => {
+  const s = get(p);
+  let h = secHead(p) + T('p', p+'.intro', 'sec-intro', 'Intro (optional)', true) + '<div class="cases">';
+  s.items.forEach((c,i) => { h += caseHTML(p, i); });
+  return h + A(p+'.items', 'case', 'Add case study') + '</div>';
+};
+R.projects = p => {
+  const s = get(p);
+  let h = secHead(p) + T('p', p+'.intro', 'sec-intro', 'Intro (optional)', true) + '<div class="proj-grid">';
+  s.items.forEach((x,i) => {
+    const q = p+'.items.'+i;
+    if(editing()){
+      h += '<article class="proj ed-item">'+tools(p+'.items', i, { extra: '<span class="ed-sw" title="Main = full case study on the page · Secondary = smaller card that opens a window"><button class="ed-btn" type="button" data-act="tocase" data-from="'+p+'" data-i="'+i+'">Main</button><button class="ed-btn on" type="button" disabled>Secondary</button></span>' + cropBtn(q, (coverOf(x) || {}).src, COVER_R, 'Card photo', ' ') })
+        + figs(q+'.figures', { addLabel: 'Add image' })
+        + '<div class="body">'+T('span', q+'.context', 'ctx', 'Context')+T('h3', q+'.title', '', 'Title')+T('p', q+'.text', '', 'Short description (on the card)', true)+chips(q+'.tags', 'tags', 'tag', 'Tag')+'</div>'
+        + '<div class="ro">'+T('span', q+'.roLabel', '', 'Label')+T('strong', q+'.roValue', '', 'Value')+'</div>'
+        + '<div class="ed-details"><span class="label">Shown when a visitor opens the card</span>'+blocksHTML(q)+readout(q+'.readout')+'</div>'
+        + '</article>';
+      return;
+    }
+    const photos = (x.figures || []).filter(f => f.src);
+    const c = photos[0];
+    const cover = c
+      ? '<div class="cover">'+coverImg(x, '(max-width:620px) 100vw, 360px', 960)+(photos.length > 1 ? '<span class="count">'+photos.length+' photos</span>' : '')+'</div>'
+      : (S.meta.hideEmptyFigures ? '' : '<div class="cover none">'+esc(x.title.split(/\s+/).slice(0,2).join(' '))+'</div>');
+    h += '<article class="proj" tabindex="0" role="button" aria-haspopup="dialog" data-open="'+q+'">' + cover
+      + '<div class="body">'+(x.context ? '<span class="ctx">'+esc(x.context)+'</span>' : '')+'<h3>'+esc(x.title)+'</h3>'+(x.text ? '<p class="clamp">'+fmt(x.text)+'</p>' : '')
+      + chips(q+'.tags', 'tags', 'tag', 'Tag') + '<span class="open">View project <i>→</i></span></div>'
+      + ((x.roLabel || x.roValue) ? '<div class="ro"><span>'+esc(x.roLabel)+'</span><strong>'+esc(x.roValue)+'</strong></div>' : '')
+      + '</article>';
+  });
+  return h + A(p+'.items', 'proj', 'Add project card') + '</div>';
+};
+/* Full view of a secondary project: every photo and all the details.
+   The header stays put, only the content scrolls, and the page behind never moves. */
+let lastFocus = null, DLG = null;
+/* Every secondary project a visitor can open, in page order (used for previous / next). */
+function projList(){
+  const out = [];
+  S.sections.forEach((s, k) => { if(s.type === 'projects' && !s.hidden) s.items.forEach((x, i) => out.push('sections.'+k+'.items.'+i)); });
+  return out;
+}
+let lockY = 0;
+function lockScroll(){
+  if(document.body.classList.contains('noscroll')) return;
+  lockY = window.scrollY;
+  document.body.style.top = -lockY + 'px';
+  document.body.classList.add('noscroll');
+}
+function unlockScroll(){
+  if($('dlg') || $('lb') || !document.body.classList.contains('noscroll')) return;
+  document.body.classList.remove('noscroll'); document.body.style.top = '';
+  window.scrollTo({ top: lockY, left: 0, behavior: 'instant' });
+}
+function openProject(q){
+  const x = get(q);
+  if(!x) return;
+  let d = $('dlg');
+  if(!d){
+    lastFocus = document.activeElement;
+    d = document.createElement('div'); d.className = 'dlg'; d.id = 'dlg';
+    d.addEventListener('click', e => {
+      if(e.target === d || e.target.closest('[data-close]')) closeDlg();
+      else if(e.target.closest('[data-go]')) dlgGo(+e.target.closest('[data-go]').dataset.go);
+    });
+    document.body.appendChild(d); lockScroll();
+  }
+  const list = projList(), n = list.length, at = list.indexOf(q);
+  DLG = { q, list, at };
+  const title = k => esc((get(list[(k + n) % n]) || {}).title || '');
+  const nav = n > 1 && at >= 0;
+  const meta = (x.meta && x.meta.length ? x.meta : (x.context ? [x.context] : []));
+  const side = readout(q+'.readout') + ((x.roLabel || x.roValue) && !(x.readout || []).length ? '<div class="tblock"><div class="cells"><div class="cell hl"><span>'+esc(x.roLabel)+'</span><strong>'+esc(x.roValue)+'</strong></div></div></div>' : '') + chips(q+'.tags', 'tags', 'tag', 'Tag');
+  d.innerHTML = '<div class="box" role="dialog" aria-modal="true" aria-labelledby="dlg-t"><div class="hd"><span class="label">Project'+(nav ? ' '+(at+1)+' / '+n : '')+'</span>'
+    + '<div class="nav">'+(nav ? '<button class="nb" data-go="-1" type="button" aria-label="Previous project: '+title(at-1)+'" title="'+title(at-1)+'">← Prev</button><button class="nb" data-go="1" type="button" aria-label="Next project: '+title(at+1)+'" title="'+title(at+1)+'">Next →</button>' : '')
+    + '<button class="x" data-close type="button">Close ✕</button></div></div><div class="ct">'
+    + '<ul class="meta" style="display:flex;flex-wrap:wrap;gap:4px 14px;font:400 13px var(--mono);color:var(--steel);list-style:none;padding:0;margin:0">'+meta.map(m => '<li>'+esc(m)+'</li>').join('<li aria-hidden="true" style="color:var(--line)">/</li>')+'</ul>'
+    + '<h2 id="dlg-t">'+esc(x.title)+'</h2>' + (x.text ? '<p class="lead">'+fmt(x.text)+'</p>' : '')
+    + '<div class="gal">'+figs(q+'.figures')+'</div>'
+    + ((x.blocks || []).length ? '<div class="two"><div>'+blocksHTML(q)+'</div><div class="side">'+side+'</div></div>' : '<div class="side" style="margin-top:20px">'+side+'</div>')
+    + '<div class="ft">'+(nav ? '<button class="nb" data-go="-1" type="button">← '+title(at-1)+'</button>' : '<span></span>')
+    + '<button class="x" data-close type="button">Close ✕</button>'
+    + (nav ? '<button class="nb" data-go="1" type="button">'+title(at+1)+' →</button>' : '<span></span>')+'</div>'
+    + '</div></div>';
+  d.querySelector('.ct').scrollTop = 0;
+  d.querySelector('.hd .x').focus({ preventScroll: true });
+}
+function dlgGo(k){ if(!DLG || DLG.list.length < 2 || DLG.at < 0) return; openProject(DLG.list[(DLG.at + k + DLG.list.length) % DLG.list.length]); }
+function closeDlg(){
+  const d = $('dlg'); if(!d) return;
+  d.remove(); DLG = null; unlockScroll();
+  if(lastFocus && lastFocus.focus) lastFocus.focus({ preventScroll: true });
+}
+/* Full-screen photo viewer with previous / next. */
+let LB = null;
+function openLightbox(group, idx){
+  const list = (get(group) || []).filter(f => f.src);
+  if(!list.length) return;
+  LB = { list, i: Math.max(0, idx) };
+  let el = $('lb');
+  if(!el){ el = document.createElement('div'); el.id = 'lb'; el.className = 'lb'; el.setAttribute('role', 'dialog'); el.setAttribute('aria-modal', 'true'); document.body.appendChild(el); }
+  el.onclick = e => { if(e.target.closest('.prev')) lbGo(-1); else if(e.target.closest('.next')) lbGo(1); else if(!e.target.closest('img')) closeLightbox(); };
+  let sx = null;
+  el.ontouchstart = e => { sx = e.touches[0].clientX; };
+  el.ontouchend = e => { if(sx == null) return; const dx = e.changedTouches[0].clientX - sx; if(Math.abs(dx) > 40) lbGo(dx < 0 ? 1 : -1); sx = null; };
+  lockScroll();
+  lbDraw();
+}
+function lbDraw(){
+  const el = $('lb'); if(!el || !LB) return;
+  const f = LB.list[LB.i], n = LB.list.length;
+  el.innerHTML = '<div class="stage"><img src="'+esc(url(f.src))+'" alt="'+esc(isPlaceholder(f.caption) ? '' : f.caption)+'"></div>'
+    + '<div class="cap">'+(isPlaceholder(f.caption) ? '' : esc(f.caption)+' · ')+(LB.i+1)+' / '+n+'</div>'
+    + '<button class="close" type="button" aria-label="Close">✕</button>'
+    + (n > 1 ? '<button class="prev" type="button" aria-label="Previous photo">←</button><button class="next" type="button" aria-label="Next photo">→</button>' : '');
+  el.querySelector('.close').focus();
+}
+function lbGo(d){ if(!LB) return; LB.i = (LB.i + d + LB.list.length) % LB.list.length; lbDraw(); }
+function closeLightbox(){ const el = $('lb'); if(el) el.remove(); LB = null; unlockScroll(); }
+R.timeline = p => {
+  const s = get(p);
+  let h = secHead(p) + '<ol class="timeline">';
+  s.items.forEach((e,i) => {
+    const q = p+'.items.'+i;
+    h += '<li class="'+(e.major?'major':'')+IT()+'"><div class="when">'+T('span', q+'.dates', '', 'Dates')+'</div><div class="with-logo">'+logoBox(q, e.org)+'<div>'+T('span', q+'.org', 'org', 'Organisation')+T('h3', q+'.role', '', 'Role')+T('p', q+'.text', '', 'Description', true)+'</div></div>'
+      + tools(p+'.items', i, { toggles: [['major', 'Highlight']] }) + '</li>';
+  });
+  return h + '</ol>' + A(p+'.items', 'job', 'Add entry');
+};
+R.stack = p => {
+  const s = get(p);
+  let h = secHead(p) + '<div class="stack">';
+  s.layers.forEach((l,i) => {
+    const q = p+'.layers.'+i;
+    h += '<div class="stratum'+(l.edge?' edge':'')+IT()+'">'+T('div', q+'.name', 'lay', 'Layer name')+chips(q+'.items', 'its', 'str', 'Skill')
+      + tools(p+'.layers', i, { toggles: [['edge', 'Dark']] }) + '</div>';
+  });
+  return h + '</div>' + A(p+'.layers', 'layer', 'Add layer');
+};
+R.education = p => {
+  const s = get(p);
+  let h = secHead(p) + '<div class="edu">';
+  s.items.forEach((e,i) => {
+    const q = p+'.items.'+i;
+    h += '<article class="'+IT()+'"><div class="with-logo">'+logoBox(q, e.school)+'<div>'+T('span', q+'.dates', 'label', 'Dates')+T('h3', q+'.degree', '', 'Degree')
+      + '<p>'+T('strong', q+'.school', '', 'School')+(editing() ? '' : '<br>')+T('span', q+'.detail', '', 'Detail', true).replace('<span', editing() ? '<span style="display:block"' : '<span')+'</p></div></div>'
+      + tools(p+'.items', i) + '</article>';
+  });
+  h += '</div>' + A(p+'.items', 'edu', 'Add school');
+  if(s.courses.length || editing()){
+    h += '<div class="sub">'+T('span', p+'.coursesLabel', 'label', 'Courses label')+'<ul class="courses">'
+      + s.courses.map((c,i) => '<li class="'+IT()+'">'+T('span', p+'.courses.'+i+'.name', '', 'Course')+T('span', p+'.courses.'+i+'.grade', '', 'Grade')+tools(p+'.courses', i)+'</li>').join('')
+      + '</ul>' + A(p+'.courses', 'course', 'Add course') + '</div>';
+  }
+  if(s.publications.length || editing()){
+    h += '<div class="sub">'+T('span', p+'.pubLabel', 'label', 'Publications label')
+      + s.publications.map((x,i) => '<div class="'+IT()+'">'+T('p', p+'.publications.'+i, 'pub', 'Publication', true)+tools(p+'.publications', i)+'</div>').join('')
+      + A(p+'.publications', 'pub', 'Add publication') + '</div>';
+  }
+  if(s.recognition.length || editing()) h += '<div class="sub">'+chips(p+'.recognition', 'recog', 'recog', 'Add recognition')+'</div>';
+  return h;
+};
+R.text = p => {
+  const s = get(p);
+  const hasFigs = s.figures.length || editing();
+  let h = secHead(p) + '<div class="text-grid'+(hasFigs?'':' solo')+'"><div class="prose">';
+  s.paragraphs.forEach((x,i) => { h += '<div class="'+IT()+'">'+T('p', p+'.paragraphs.'+i, '', 'Paragraph', true)+tools(p+'.paragraphs', i)+'</div>'; });
+  h += A(p+'.paragraphs', 'para', 'Add paragraph') + '</div>';
+  if(hasFigs) h += '<div class="side">'+figs(p+'.figures')+'</div>';
+  return h + '</div>';
+};
+R.contact = p => {
+  const P = S.profile;
+  const link = (path, href, ph) => editing() ? T('strong', path, '', ph) : '<a href="'+esc(href)+'"'+(href.startsWith('http')?' target="_blank" rel="noopener"':'')+'>'+esc(get(path))+'</a>';
+  return (editing() ? '<div class="sec-head">'+T('span', p+'.heading', 'label', 'Label')+T('span', p+'.tag', 'label', 'Label')+'</div>' : '<div class="sec-head"><span class="label">'+esc(get(p+'.heading'))+'</span><span class="label">'+esc(get(p+'.tag'))+'</span></div>')
+    + T('h2', p+'.title', 'contact-title', 'Big question', true) + T('p', p+'.lead', 'lead', 'A line about what you want to hear about', true)
+    + '<div class="cartouche">'
+    + '<div class="big"><span class="k">Drawn by</span>'+T('strong', 'profile.name', '', 'Name')+'</div>'
+    + '<div><span class="k">Based in</span>'+T('strong', 'profile.location', '', 'Location')+'</div>'
+    + '<div><span class="k">Rev</span>'+T('strong', p+'.rev', '', 'Rev')+'</div>'
+    + '<div class="accent last"><span class="k">Email</span>'+link('profile.email', 'mailto:'+P.email, 'Email')+(editing() ? '' : '<button class="copy-btn" type="button" data-copy="'+esc(P.email)+'">Copy</button>')+'</div>'
+    + '<div class="last"><span class="k">LinkedIn</span>'+link('profile.linkedinLabel', P.linkedin, 'LinkedIn label')+'</div>'
+    + '<div class="last"><span class="k">Sheet</span>'+T('strong', p+'.sheet', '', 'Sheet')+'</div>'
+    + '</div>';
+};
+
+function hero(){
+  const P = S.profile;
+  const firstCases = S.sections.find(s => s.type === 'cases' && !s.hidden);
+  const contact = S.sections.find(s => s.type === 'contact' && !s.hidden);
+  const name = editing() ? T('h1', 'profile.name', '', 'Your name') : '<h1>'+esc(P.name).replace(/ /g, '\n')+'</h1>';
+  const side = figs('profile.figures') + readout('profile.readout', 'profile.readoutCaption', 'profile.readoutRev');
+  const facts = (P.facts || []);
+  const factsHTML = editing() ? chips('profile.facts', 'facts', 'str', 'Add fact') : (facts.length ? '<ul class="facts">'+facts.map(f => '<li>'+fmt(f)+'</li>').join('')+'</ul>' : '');
+  return '<section class="sec hero"><div class="wrap hero-grid'+(side ? '' : ' solo')+'"><div>'
+    + T('p', 'profile.role', 'label', 'Role line') + name + T('p', 'profile.thesis', 'thesis', 'Your one-line thesis', true) + T('p', 'profile.intro', 'intro', 'Short intro', true)
+    + '<div class="cta-row">'
+    + (editing() ? T('span', 'profile.ctaSecondary', 'btn primary', 'Button') + T('span', 'profile.ctaPrimary', 'btn ghost', 'Button')
+       : (P.ctaSecondary && firstCases ? '<a class="btn primary" href="#'+esc(firstCases.id)+'">'+esc(P.ctaSecondary)+' ↓</a>' : '') + (P.ctaPrimary && contact ? '<a class="btn ghost" href="#'+esc(contact.id)+'">'+esc(P.ctaPrimary)+'</a>' : ''))
+    + '</div>' + factsHTML + '</div>' + (side ? '<div class="side">' + side + '</div>' : '') + '</div></section>' + projIndex();
+}
+/* Quick view of the work right under the intro: main projects, then every secondary project as a smaller card. */
+function projIndex(){
+  if(S.meta.showIndex === false) return '';
+  const thumb = (item, path, fallback, sizes, maxW) => {
+    const c = coverOf(item);
+    return '<div class="th">'+(c ? coverImg(item, sizes, maxW) : '<span>'+esc(fallback)+'</span>') + (c ? cropBtn(path, c.src, COVER_R, 'Recrop') : '')+'</div>';
+  };
+  const cards = [];
+  S.sections.forEach((s, k) => {
+    if(s.type !== 'cases' || (s.hidden && !editing())) return;
+    s.items.forEach((c, i) => {
+      const hl = (c.readout || []).find(r => r.hl && r.value) || (c.readout || []).find(r => r.value);
+      cards.push('<a class="idx-card" href="#'+caseId('sections.'+k, i)+'">'+thumb(c, 'sections.'+k+'.items.'+i, (c.dwg || '').replace(/^DWG\s*/i, ''), '(max-width:620px) 70vw, 280px', 960)
+        + '<div class="tx"><strong>'+esc(c.title)+'</strong>'+(hl ? '<span class="kv"><span>'+esc(hl.label)+'</span><b>'+esc(hl.value)+'</b></span>' : '')+'</div></a>');
+    });
+  });
+  const minis = [];
+  let more = null;
+  S.sections.forEach((s, k) => {
+    if(s.type !== 'projects' || (s.hidden && !editing())) return;
+    if(!more) more = s;
+    s.items.forEach((x, i) => {
+      const q = 'sections.'+k+'.items.'+i;
+      const val = x.roValue && x.roValue !== '–' ? x.roValue : '';
+      minis.push('<a class="idx-card mini" href="#'+esc(s.id)+'"'+(editing() ? '' : ' data-open="'+q+'" aria-haspopup="dialog"')+'>'+thumb(x, q, (x.title || '').split(/\s+/).slice(0,2).join(' '), '(max-width:620px) 48vw, 200px', 640)
+        + '<div class="tx"><strong>'+esc(x.title)+'</strong>'+(val ? '<span class="kv"><span>'+esc(x.roLabel || '')+'</span><b>'+esc(val)+'</b></span>' : '')+'</div></a>');
+    });
+  });
+  if(!cards.length && !minis.length) return '';
+  let h = '<section class="idx"><div class="wrap">';
+  if(cards.length) h += '<div class="idx-row"><div class="idx-head"><span class="label">'+esc(S.meta.indexLabel || 'Main projects')+' · '+cards.length+'</span>'
+    + (!minis.length && more ? '<a href="#'+esc(more.id)+'">See all →</a>' : '') + '</div><div class="idx-grid">'+cards.join('')+'</div></div>';
+  if(minis.length) h += '<div class="idx-row"><div class="idx-head"><span class="label">'+esc(S.meta.miniLabel || (more && more.heading) || 'More projects')+' · '+minis.length+'</span>'
+    + '<a href="#'+esc(more.id)+'">See all →</a></div><div class="idx-grid mini">'+minis.join('')+'</div></div>';
+  return h + '</div></section>';
+}
+function nav(){
+  const P = S.profile;
+  const initials = P.name.split(/\s+/).filter(Boolean).map(w => w[0]).join('').slice(0,3).toUpperCase();
+  const items = S.sections.filter(s => s.navLabel && !s.hidden);
+  return '<a class="mark" href="#top"><b>'+esc(initials)+'</b><span>'+esc(P.name)+'</span></a><ul>'
+    + items.map(s => '<li class="'+(s.type === 'contact' ? 'cta-li' : '')+'"><a class="'+(s.type === 'contact' ? 'nav-cta' : '')+'" href="#'+esc(s.id)+'">'+esc(s.navLabel)+'</a></li>').join('') + '</ul>';
+}
+function addSecRow(at){
+  if(!editing()) return '';
+  return '<div class="ed-addsec"><select data-addtype="'+at+'">'+Object.keys(TYPE_NAMES).map(k => '<option value="'+k+'">'+TYPE_NAMES[k]+'</option>').join('')+'</select><button class="ed-add" style="margin:0" data-act="secadd" data-at="'+at+'">+ Add section here</button></div>';
+}
+function secBar(i){
+  const s = S.sections[i];
+  return '<div class="ed-secbar" contenteditable="false"><span class="t">'+esc(TYPE_NAMES[s.type] || s.type)+'</span>'
+    + '<label>Menu <input type="text" data-navlabel="'+i+'" value="'+esc(s.navLabel || '')+'" placeholder="not in menu"></label><span class="sp"></span>'
+    + '<button class="ed-btn" data-act="secup" data-i="'+i+'">↑ Up</button><button class="ed-btn" data-act="secdown" data-i="'+i+'">↓ Down</button>'
+    + '<button class="ed-btn'+(s.dark?' on':'')+'" data-act="secflag" data-f="dark" data-i="'+i+'">Dark</button>'
+    + '<button class="ed-btn'+(s.hidden?' on':'')+'" data-act="secflag" data-f="hidden" data-i="'+i+'">'+(s.hidden?'Hidden':'Hide')+'</button>'
+    + '<button class="ed-btn danger" data-act="secdel" data-i="'+i+'">✕ Delete</button></div>';
+}
+
+/* ---------- render ---------- */
+function render(){
+  const M = S.meta;
+  document.title = M.title || S.profile.name;
+  const md = document.querySelector('meta[name=description]'); if(md) md.setAttribute('content', M.description || '');
+  document.documentElement.style.setProperty('--kapton', M.accent || '#C47F0A');
+  $('sheet').classList.toggle('no-rulers', !M.showRulers);
+  document.body.classList.toggle('editing', editing());
+  $('nav').innerHTML = nav();
+  let h = hero() + addSecRow(0);
+  S.sections.forEach((s,i) => {
+    if(s.hidden && !editing()) return;
+    h += '<section class="sec'+(s.dark?' band':'')+(s.hidden?' is-hidden':'')+'" id="'+esc(s.id)+'"><div class="wrap">'
+      + (editing() ? secBar(i) : '') + (R[s.type] ? R[s.type]('sections.'+i) : '') + '</div></section>' + addSecRow(i+1);
+  });
+  $('top').innerHTML = h;
+  renderBar();
+  setupFade();
+}
+/* Sections fade in gently as they scroll into view (Settings → "Fade sections in"). */
+let fadeIO = null;
+const faded = new Set();
+function setupFade(){
+  if(fadeIO){ fadeIO.disconnect(); fadeIO = null; }
+  const on = S.meta.fadeIn !== false && !editing() && 'IntersectionObserver' in window && !(window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches);
+  document.body.classList.toggle('fx', on);
+  if(!on) return;
+  const key = el => el.id || 'idx';
+  fadeIO = new IntersectionObserver(es => es.forEach(en => {
+    if(!en.isIntersecting) return;
+    en.target.classList.add('in'); faded.add(key(en.target)); fadeIO.unobserve(en.target);
+  }), { rootMargin: '0px 0px -8% 0px' });
+  document.querySelectorAll('#top > .sec:not(.hero), #top > .idx').forEach(el => {
+    if(faded.has(key(el))) el.classList.add('in'); else fadeIO.observe(el);
+  });
+}
+
+/* ---------- editor bar and panels ---------- */
+let barMsg = '';
+function renderBar(){
+  let bar = $('ed-bar');
+  if(!EDIT){ if(bar) bar.remove(); return; }
+  if(!bar){ bar = document.createElement('div'); bar.id = 'ed-bar'; bar.className = 'ed-bar'; document.body.appendChild(bar); }
+  bar.innerHTML = PREVIEW
+    ? '<span>Preview</span><button class="ed-btn primary" data-act="preview">Back to editing</button>'
+    : '<strong style="font-weight:500;color:var(--kapton-light)">Edit mode</strong>'
+      + '<button class="ed-btn" data-act="undo"'+(undoStack.length?'':' disabled')+'>Undo</button>'
+      + '<button class="ed-btn" data-act="settings">Settings</button>'
+      + '<button class="ed-btn" data-act="help">Help</button>'
+      + '<button class="ed-btn" data-act="preview">Preview</button>'
+      + '<button class="ed-btn primary" data-act="save">Publish</button>'
+      + '<button class="ed-btn" data-act="exit">Exit</button>'
+      + (barMsg ? '<span class="msg">'+esc(barMsg)+'</span>' : '');
+}
+function flash(m){ barMsg = m; renderBar(); clearTimeout(flash.t); flash.t = setTimeout(() => { barMsg = ''; renderBar(); }, 3500); }
+function panel(html){
+  closePanel();
+  const d = document.createElement('div'); d.className = 'ed-panel'; d.id = 'ed-panel';
+  d.innerHTML = '<div class="box" role="dialog" aria-modal="true">'+html+'</div>';
+  d.addEventListener('click', e => { if(e.target === d) closePanel(); });
+  document.body.appendChild(d);
+}
+function closePanel(){ const p = $('ed-panel'); if(p) p.remove(); }
+function settings(){
+  const M = S.meta, P = S.profile;
+  panel('<h2>Settings</h2>'
+    + '<label>Browser tab title<input type="text" data-set="meta.title" value="'+esc(M.title)+'"></label>'
+    + '<label>Description for search engines<textarea rows="2" data-set="meta.description">'+esc(M.description)+'</textarea></label>'
+    + '<label>Email<input type="text" data-set="profile.email" value="'+esc(P.email)+'"></label>'
+    + '<label>LinkedIn address (full URL)<input type="text" data-set="profile.linkedin" value="'+esc(P.linkedin)+'"></label>'
+    + '<label>LinkedIn text shown<input type="text" data-set="profile.linkedinLabel" value="'+esc(P.linkedinLabel)+'"></label>'
+    + '<div class="row"><input type="color" data-set="meta.accent" value="'+esc(M.accent)+'"> Accent colour <button class="ed-btn" data-act="resetaccent">Reset</button></div>'
+    + '<div class="row"><input type="checkbox" data-setbool="meta.hideEmptyFigures"'+(M.hideEmptyFigures?' checked':'')+'> Hide empty image frames from visitors</div>'
+    + '<div class="row"><input type="checkbox" data-setbool="meta.showRulers"'+(M.showRulers?' checked':'')+'> Show the A–F drawing rulers</div>'
+    + '<div class="row"><input type="checkbox" data-setbool="meta.fadeIn"'+(M.fadeIn !== false?' checked':'')+'> Fade sections in gently while visitors scroll</div>'
+    + '<p class="help" style="margin-top:16px"><b>GitHub</b> · '+esc((repoInfo().owner || '?') + '/' + (repoInfo().repo || '?') + ' (' + repoInfo().branch + ')')+'</p>'
+    + '<div class="row"><button class="ed-btn" data-act="forgettoken">Forget GitHub token</button><button class="ed-btn" data-act="download">Download files instead</button></div>'
+    + '<div class="row"><input type="checkbox" data-setbool="meta.showIndex"'+(M.showIndex !== false?' checked':'')+'> Show project cards under the intro</div>'
+    + '<div class="row" style="margin-top:18px"><button class="ed-btn" data-act="discard">Discard all unsaved changes</button><span class="sp" style="flex:1"></span><button class="ed-btn primary" data-act="closepanel">Done</button></div>');
+}
+function help(){
+  panel('<h2>How to edit</h2><ul class="help">'
+    + '<li><b>Text:</b> click any text and type. Enter finishes a line; long fields accept line breaks. Use **bold**, *italic* and [link text](https://…).</li>'
+    + '<li><b>Items:</b> hover an item to see its tools: ↑ ↓ to reorder, ✕ to delete (click twice), Highlight or Dark to change its look.</li>'
+    + '<li><b>Add:</b> the dashed “+” buttons add bullets, tags, images, projects, courses, timeline entries and so on.</li>'
+    + '<li><b>Images:</b> click a frame or drop a file onto it. Drag the photo inside its frame to move it, and use − / + to zoom. Wide = full width, Fit = show the whole image (for diagrams), Crop = quick presets for which part stays visible. <b>Recrop</b> opens a larger crop tool. Card photos at the top of the page and on project cards, and logos, have their own <b>Recrop</b> / <b>Crop</b> button.</li>'
+    + '<li><b>Main / Secondary:</b> hover a project and use the switch to turn a full case study into a small card (or back). Nothing is lost.</li>'
+    + '<li><b>Sections:</b> each has a bar to move it, make it dark, hide it, delete it or show it in the top menu. “+ Add section here” inserts a new one.</li>'
+    + '<li><b>Your work is kept</b> in this browser as you go. Press <b>Publish</b> (or Ctrl+S) to save it to GitHub; the site updates about a minute later. The first time, you are asked for a GitHub access token, kept only in this browser.</li>'
+    + '<li>New photos are kept in this browser and sent to the images folder on GitHub with the next Publish.</li>'
+    + '</ul><div class="row"><span style="flex:1"></span><button class="ed-btn primary" data-act="closepanel">Got it</button></div>');
+}
+
+/* ---------- state changes ---------- */
+function snapshot(){ undoStack.push(JSON.stringify(S)); if(undoStack.length > 60) undoStack.shift(); }
+function change(fn){ snapshot(); fn(); render(); saveDraft(); }
+let draftT;
+function saveDraft(){ clearTimeout(draftT); draftT = setTimeout(() => { try{ localStorage.setItem(DRAFT_KEY, JSON.stringify(S)); }catch(e){} }, 300); }
+function readImage(file){
+  return new Promise((res, rej) => {
+    const fr = new FileReader();
+    fr.onerror = rej;
+    fr.onload = () => {
+      if(/svg|gif/.test(file.type)) return res(fr.result);
+      const img = new Image();
+      img.onerror = rej;
+      img.onload = () => {
+        const max = 1800, k = Math.min(1, max / Math.max(img.width, img.height));
+        const c = document.createElement('canvas'); c.width = Math.round(img.width*k); c.height = Math.round(img.height*k);
+        c.getContext('2d').drawImage(img, 0, 0, c.width, c.height);
+        const png = file.type === 'image/png' && file.size < 700000;
+        res(png && k === 1 ? fr.result : c.toDataURL(png ? 'image/png' : 'image/jpeg', 0.85));
+      };
+      img.src = fr.result;
+    };
+    fr.readAsDataURL(file);
+  });
+}
+async function setImage(path, file){
+  if(!file || !/^image\//.test(file.type)){ flash('That file is not an image'); return; }
+  let src;
+  try{ src = await readImage(file); }catch(e){ flash('Could not read that image'); return; }
+  const m = src.match(/^data:image\/(png|jpeg|gif|svg\+xml|webp|avif)/);
+  const ext = m ? ({ jpeg: 'jpg', 'svg+xml': 'svg' }[m[1]] || m[1]) : 'jpg';
+  const base = (file.name || 'photo').replace(/\.[^.]+$/, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40) || 'photo';
+  const name = 'images/' + base + '-' + Math.random().toString(36).slice(2, 7) + '.' + ext;
+  NEW_IMG[name] = src; saveNewImg();
+  change(() => set(path+'.src', name));
+  flash('Image added: it goes online with the next Publish');
+}
+function saveNewImg(){ try{ localStorage.setItem(NEWIMG_KEY, JSON.stringify(NEW_IMG)); }catch(e){} }
+
+/* ---------- main / secondary switch ---------- */
+/* Turns a main case study into a secondary card (or back) without losing any text, photo or detail. */
+function moveKind(from, i, toType){
+  const src = get(from+'.items');
+  if(!src || !src[i]) return;
+  const x = src[i];
+  let k = S.sections.findIndex(s => s.type === toType && !s.hidden);
+  if(k < 0) k = S.sections.findIndex(s => s.type === toType);
+  let item;
+  if(toType === 'projects'){
+    const hl = (x.readout || []).find(r => r.hl && r.value) || (x.readout || []).find(r => r.value) || {};
+    const firstText = (x.blocks || []).map(b => b.text).find(Boolean) || '';
+    item = Object.assign({}, x, {
+      context: x.context || (x.meta || []).slice(0, 2).join(' · '),
+      text: x.text || firstText,
+      roLabel: x.roLabel != null ? x.roLabel : (hl.label || ''),
+      roValue: x.roValue != null ? x.roValue : (hl.value || '')
+    });
+  } else {
+    const nums = []; S.sections.forEach(s => { if(s.type === 'cases') s.items.forEach(c => { const m = String(c.dwg || '').match(/(\d+)\s*$/); if(m) nums.push(+m[1]); }); });
+    item = Object.assign({}, x, {
+      dwg: x.dwg || 'DWG TL-' + (nums.length ? Math.max(...nums) + 1 : 101),
+      rev: x.rev || 'Rev A',
+      meta: x.meta && x.meta.length ? x.meta : (x.context ? x.context.split(/\s*·\s*/).filter(Boolean) : []),
+      blocks: x.blocks && x.blocks.length ? x.blocks : [{ heading: 'Overview', text: x.text || '', bullets: [] }],
+      readout: x.readout && x.readout.length ? x.readout : (x.roValue ? [{ label: x.roLabel || 'Result', value: x.roValue, hl: true }] : []),
+      tags: x.tags || [], figures: x.figures || [], note: x.note || ''
+    });
+  }
+  let target;
+  change(() => {
+    src.splice(i, 1);
+    if(k < 0){
+      const s = Object.assign({ id: uid(), type: toType, navLabel: '', dark: false, hidden: false }, SECTION_NEW[toType]());
+      s.items = [];
+      const lastCases = S.sections.map(s => s.type).lastIndexOf('cases');
+      k = toType === 'projects' && lastCases >= 0 ? lastCases + 1 : S.sections.length;
+      S.sections.splice(k, 0, s);
+    }
+    S.sections[k].items.push(item);
+    target = 'sections.'+k+'.items.'+(S.sections[k].items.length - 1);
+  });
+  flash(toType === 'cases' ? 'Now a main project (full case study)' : 'Now a secondary project (small card)');
+  const sec = S.sections[k];
+  const el = toType === 'cases' ? $(caseId('sections.'+k, sec.items.length - 1)) : document.querySelectorAll('#'+CSS.escape(sec.id)+' .proj')[sec.items.length - 1];
+  if(el) el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+
+/* ---------- crop tool ---------- */
+/* Shows the image in its real frame shape: drag to move it, slider to zoom, "Centre" to reset.
+   path points at the object holding pos / zoom (a figure, a card's "cover", or a logo). */
+function cropEditor(path, src, ratio, fit, isLogo){
+  if(path && !get(path)){ const o = parts(path); const last = o.pop(); const parent = o.reduce((a, k) => a[k], S); parent[last] = {}; }
+  const cur = get(path) || {};
+  const st = { xy: posXY(cur.pos), z: +cur.zoom > 1 ? +cur.zoom : 1, fit: isLogo ? (cur.fit === 'cover' ? 'cover' : 'contain') : fit };
+  const w = ratio >= 1 ? 'min(100%, 512px)' : 'min(100%, calc(52vh * '+ratio+'))';
+  panel('<h2>'+(isLogo ? 'Crop logo' : 'Crop image')+'</h2><p class="help">Drag the image to choose what stays visible, zoom with the slider. The frame has the same shape as on the page.</p>'
+    + '<div class="crop-stage" id="crop-stage" style="width:'+w+';aspect-ratio:'+ratio+(isLogo ? ';background:#fff' : '')+'"><img id="crop-img" src="'+esc(url(src))+'" alt="" draggable="false"></div>'
+    + '<div class="row">Zoom <input type="range" id="crop-z" min="1" max="4" step="0.05" value="'+st.z+'"><span id="crop-zv" style="font:400 12px var(--mono);width:44px">'+st.z.toFixed(2)+'×</span></div>'
+    + '<div class="row"><button class="ed-btn" type="button" id="crop-c">Centre</button>'
+    + (isLogo ? '<button class="ed-btn" type="button" id="crop-f">'+(st.fit === 'cover' ? 'Fill the square' : 'Whole logo')+'</button>' : '')
+    + '<span style="flex:1"></span><button class="ed-btn" type="button" data-act="closepanel">Cancel</button><button class="ed-btn primary" type="button" id="crop-ok">Apply</button></div>');
+  const stage = $('crop-stage'), img = $('crop-img'), zr = $('crop-z');
+  const draw = () => {
+    img.style.objectFit = st.fit;
+    img.style.objectPosition = st.xy[0]+'% '+st.xy[1]+'%';
+    img.style.transformOrigin = st.xy[0]+'% '+st.xy[1]+'%';
+    img.style.transform = st.z > 1 ? 'scale('+st.z+')' : '';
+    $('crop-zv').textContent = st.z.toFixed(2)+'×';
+  };
+  draw();
+  zr.oninput = () => { st.z = +zr.value; draw(); };
+  $('crop-c').onclick = () => { st.xy = [50, 50]; st.z = 1; zr.value = 1; draw(); };
+  if(isLogo) $('crop-f').onclick = e => { st.fit = st.fit === 'cover' ? 'contain' : 'cover'; e.target.textContent = st.fit === 'cover' ? 'Fill the square' : 'Whole logo'; draw(); };
+  let drag = null;
+  stage.onpointerdown = e => {
+    if(!img.naturalWidth) return;
+    const r = stage.getBoundingClientRect();
+    const k = (st.fit === 'contain' ? Math.min : Math.max)(r.width / img.naturalWidth, r.height / img.naturalHeight);
+    // On-screen movement per 1 % of position: slack between frame and zoomed image.
+    const sx = (r.width - st.z * img.naturalWidth * k) / 100, sy = (r.height - st.z * img.naturalHeight * k) / 100;
+    drag = { x0: e.clientX, y0: e.clientY, xy: st.xy.slice(), sx: Math.abs(sx) > 0.01 ? sx : 0, sy: Math.abs(sy) > 0.01 ? sy : 0 };
+    stage.setPointerCapture(e.pointerId); stage.classList.add('dragging'); e.preventDefault();
+  };
+  stage.onpointermove = e => {
+    if(!drag) return;
+    const c = v => Math.round(Math.min(100, Math.max(0, v)) * 10) / 10;
+    st.xy = [drag.sx ? c(drag.xy[0] + (e.clientX - drag.x0) / drag.sx) : drag.xy[0], drag.sy ? c(drag.xy[1] + (e.clientY - drag.y0) / drag.sy) : drag.xy[1]];
+    draw();
+  };
+  stage.onpointerup = stage.onpointercancel = () => { drag = null; stage.classList.remove('dragging'); };
+  stage.onwheel = e => { e.preventDefault(); st.z = Math.min(4, Math.max(1, Math.round((st.z - e.deltaY * 0.002) * 100) / 100)); zr.value = st.z; draw(); };
+  $('crop-ok').onclick = () => {
+    closePanel();
+    change(() => {
+      const o = get(path);
+      o.pos = st.xy[0]+'% '+st.xy[1]+'%'; o.zoom = st.z;
+      if(isLogo) o.fit = st.fit;
+    });
+    flash('Crop saved');
+  };
+}
+
+/* ---------- publishing to GitHub ---------- */
+/* Publish writes index.html and any new photos to the GitHub repository in one commit,
+   through the GitHub API. GitHub Pages then rebuilds the site (about a minute).
+   The access token is kept only in this browser. */
+const TOKEN_KEY = 'tl-github-token';
+const PUB_KEY = 'tl-portfolio-published';
+function repoInfo(){
+  const g = Object.assign({}, S.meta.github || {});
+  const host = location.hostname, seg = location.pathname.split('/').filter(Boolean)[0];
+  if(!g.owner && /\.github\.io$/i.test(host)) g.owner = host.split('.')[0];
+  if(!g.repo && g.owner) g.repo = /\.github\.io$/i.test(host) && seg && !/\.html?$/i.test(seg) ? seg : g.owner + '.github.io';
+  if(!g.branch) g.branch = 'main';
+  return g;
+}
+function cutBetween(src, a, b){ const i = src.indexOf(a), j = src.indexOf(b, i); return (i < 0 || j < 0) ? null : src.slice(i, j + b.length); }
+function buildFile(){
+  const json = JSON.stringify(S, null, 1).replace(/</g, '\\u003c').replace(/\u2028/g, '\\u2028').replace(/\u2029/g, '\\u2029');
+  const H = cutBetween(PRISTINE, '<!--tl:'+'head-->', '<!--/tl:'+'head-->');
+  const B0 = cutBetween(PRISTINE, '<!--tl:'+'body-->', '/* tl:end-of-'+'script */\n})();\n</'+'script>');
+  const base = (H && B0) ? '<!DOCTYPE html>\n<html lang="en">\n<head>\n' + H + '\n</head>\n<body>\n' + B0 + '\n<!--/tl:'+'body-->\n</body>\n</html>\n' : PRISTINE;
+  return base
+    .replace(/<title>[\s\S]*?<\/title>/, () => '<title>' + esc(S.meta.title) + '</title>')
+    .replace(/<meta name="description" content="[^"]*">/, () => '<meta name="description" content="' + esc(S.meta.description) + '">')
+    .replace(/(<script id="site-data" type="application\/json">)[\s\S]*?(<\/script>)/, (m, a, b) => a + json + b);
+}
+function usedNewImages(){
+  const out = new Set();
+  const walk = o => { if(Array.isArray(o)) o.forEach(walk); else if(o && typeof o === 'object') for(const k in o){ if(k === 'src' && NEW_IMG[o[k]]) out.add(o[k]); else walk(o[k]); } };
+  walk(S); return [...out];
+}
+function b64utf8(str){
+  const bytes = new TextEncoder().encode(str); let bin = '';
+  for(let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+  return btoa(bin);
+}
+function askToken(msg){
+  return new Promise((res, rej) => {
+    const g = repoInfo();
+    panel('<h2>Connect to GitHub</h2>'
+      + (msg ? '<p class="help" style="color:#B3261E">'+esc(msg)+'</p>' : '<p class="help">Publish needs a GitHub access token with write access to this repository. It is kept only in this browser.</p>')
+      + '<form id="gh-form"><label>Repository owner (your GitHub username)<input type="text" id="gh-owner" value="'+esc(g.owner || '')+'"></label>'
+      + '<label>Repository name<input type="text" id="gh-repo" value="'+esc(g.repo || '')+'"></label>'
+      + '<label>Branch<input type="text" id="gh-branch" value="'+esc(g.branch || 'main')+'"></label>'
+      + '<label>Access token<input type="password" id="gh-token" autocomplete="off"></label>'
+      + '<p class="help">Create one at github.com → Settings → Developer settings → Fine-grained tokens: repository access “Only select repositories” (this one), permission “Contents: Read and write”.</p>'
+      + '<div class="row"><span style="flex:1"></span><button type="button" class="ed-btn" id="gh-cancel">Cancel</button><button type="submit" class="ed-btn primary">Connect</button></div></form>');
+    $('gh-token').focus();
+    $('gh-cancel').onclick = () => { closePanel(); rej({ cancelled: true }); };
+    $('gh-form').onsubmit = e => {
+      e.preventDefault();
+      const owner = $('gh-owner').value.trim(), repo = $('gh-repo').value.trim(), branch = $('gh-branch').value.trim() || 'main', tok = $('gh-token').value.trim();
+      if(!owner || !repo || !tok){ $('gh-form').querySelector('.help').textContent = 'Fill in the owner, the repository and the token.'; return; }
+      S.meta.github = { owner, repo, branch };
+      try{ localStorage.setItem(TOKEN_KEY, tok); }catch(err){}
+      closePanel(); res(tok);
+    };
+  });
+}
+async function gh(tok, method, path, body){
+  const g = repoInfo();
+  const r = await fetch('https://api.github.com/repos/' + encodeURIComponent(g.owner) + '/' + encodeURIComponent(g.repo) + path, {
+    method, headers: { 'Authorization': 'Bearer ' + tok, 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(body ? { 'Content-Type': 'application/json' } : {}) },
+    body: body ? JSON.stringify(body) : undefined
+  });
+  if(r.status === 401 || r.status === 403) throw { auth: true, status: r.status };
+  if(r.status === 404) throw { notfound: true };
+  if(!r.ok) throw new Error('GitHub ' + r.status + ': ' + (await r.text()).slice(0, 200));
+  return r.json();
+}
+async function commitFiles(tok, files, message){
+  const br = encodeURIComponent(repoInfo().branch);
+  const ref = await gh(tok, 'GET', '/git/ref/heads/' + br);
+  const head = ref.object.sha;
+  const commit = await gh(tok, 'GET', '/git/commits/' + head);
+  const tree = [];
+  for(const f of files){
+    const blob = await gh(tok, 'POST', '/git/blobs', { content: f.b64, encoding: 'base64' });
+    tree.push({ path: f.path, mode: '100644', type: 'blob', sha: blob.sha });
+  }
+  const t = await gh(tok, 'POST', '/git/trees', { base_tree: commit.tree.sha, tree });
+  const c = await gh(tok, 'POST', '/git/commits', { message, tree: t.sha, parents: [head] });
+  await gh(tok, 'PATCH', '/git/refs/heads/' + br, { sha: c.sha });
+}
+async function publish(){
+  let tok = null;
+  try{ tok = localStorage.getItem(TOKEN_KEY); }catch(e){}
+  for(let tries = 0; tries < 3; tries++){
+    try{
+      if(!tok || !(S.meta.github && S.meta.github.owner)) tok = await askToken(tries ? 'That did not work. Check the token and the repository name.' : '');
+      flash('Publishing…');
+      const imgs = usedNewImages();
+      const files = imgs.map(p => ({ path: p, b64: NEW_IMG[p].split(',')[1] }));
+      const html = buildFile();
+      files.push({ path: 'index.html', b64: b64utf8(html) });
+      await commitFiles(tok, files, 'Update portfolio' + (imgs.length ? ' (' + imgs.length + ' new photo' + (imgs.length > 1 ? 's' : '') + ')' : ''));
+      SAVED_JSON = JSON.stringify(S);
+      try{ localStorage.removeItem(DRAFT_KEY); localStorage.setItem(PUB_KEY, JSON.stringify({ t: Date.now(), json: SAVED_JSON })); }catch(e){}
+      render(); flash('Published. GitHub updates the site in about a minute.');
+      return;
+    }catch(e){
+      if(e && e.cancelled){ flash('Publish cancelled'); return; }
+      if(e && (e.auth || e.notfound)){ try{ localStorage.removeItem(TOKEN_KEY); }catch(x){} tok = null; continue; }
+      saveDraft();
+      flash('Could not publish. Your changes are still kept in this browser.');
+      return;
+    }
+  }
+  saveDraft(); flash('Could not publish: check the token and repository in Settings.');
+}
+/* Fallback without GitHub: download the page and new photos as files. */
+async function downloadFiles(){
+  const dl = (name, blob) => { const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = name; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 4000); };
+  dl('index.html', new Blob([buildFile()], { type: 'text/html' }));
+  const imgs = usedNewImages();
+  for(const p of imgs){ await new Promise(r => setTimeout(r, 400)); dl(p.split('/').pop(), await (await fetch(NEW_IMG[p])).blob()); }
+  panel('<h2>Files downloaded</h2><p class="help">Upload <b>index.html</b> to the root of the repository'+(imgs.length ? ' and these photos into its <b>images</b> folder: '+imgs.map(p => esc(p.split('/').pop())).join(', ') : '')+'.</p><div class="row"><span style="flex:1"></span><button class="ed-btn primary" data-act="closepanel">OK</button></div>');
+}
+
+/* ---------- events ---------- */
+let pendingImg = null, armed = null;
+document.addEventListener('click', async e => {
+  const cp = e.target.closest('[data-copy]');
+  if(cp){ try{ await navigator.clipboard.writeText(cp.dataset.copy); cp.textContent = 'Copied'; }catch(err){ cp.textContent = 'Select the address'; } setTimeout(() => cp.textContent = 'Copy', 2000); return; }
+  if(!editing()){
+    const z = e.target.closest('.fig.zoomable');
+    if(z){ const g = z.closest('.figs'); const all = [...g.querySelectorAll('.fig.zoomable')]; const more = z.querySelector('.more'); openLightbox(g.dataset.group, more ? all.length - 1 : all.indexOf(z)); return; }
+    const pc = e.target.closest('[data-open]');
+    const a = e.target.closest('a');
+    if(pc && (!a || a === pc)){ e.preventDefault(); openProject(pc.dataset.open); return; }
+  }
+  if(!EDIT) return;
+  const b = e.target.closest('[data-act]');
+  if(!b) return;
+  const act = b.dataset.act;
+  if(b.tagName === 'SELECT') return;
+  e.preventDefault();
+  const arr = b.dataset.arr, i = +b.dataset.i;
+  const L = arr ? get(arr) : null;
+  switch(act){
+    case 'up': if(i > 0) change(() => { [L[i-1], L[i]] = [L[i], L[i-1]]; }); break;
+    case 'down': if(i < L.length-1) change(() => { [L[i+1], L[i]] = [L[i], L[i+1]]; }); break;
+    case 'del':
+      if(armed !== b){ armed = b; b.classList.add('armed'); b.textContent = 'Delete?'; setTimeout(() => { if(armed === b){ armed = null; b.classList.remove('armed'); b.textContent = '✕'; } }, 2500); return; }
+      armed = null; change(() => L.splice(i, 1)); flash('Deleted. Undo is available.'); break;
+    case 'add': change(() => L.push(NEW[b.dataset.kind]())); break;
+    case 'toggle': change(() => { L[i][b.dataset.f] = !L[i][b.dataset.f]; }); break;
+    case 'pos': { const order = ['center','top','bottom','left','right']; const p = b.dataset.path+'.pos'; change(() => { set(p, order[(order.indexOf(get(p) || 'center')+1) % order.length]); set(b.dataset.path+'.zoom', 1); }); break; }
+    case 'zoom': { const p = b.dataset.path+'.zoom'; const z = Math.min(4, Math.max(1, Math.round(((+get(p) || 1) + 0.25 * +b.dataset.d) * 100) / 100)); change(() => set(p, z)); break; }
+    case 'kind': { const p = b.dataset.path+'.kind'; change(() => set(p, get(p) === 'diagram' ? 'photo' : 'diagram')); break; }
+    case 'tocard': moveKind(b.dataset.from, i, 'projects'); break;
+    case 'tocase': moveKind(b.dataset.from, i, 'cases'); break;
+    case 'crop': cropEditor(b.dataset.path, b.dataset.src, +b.dataset.r || 1, b.dataset.fit || 'cover', !!b.dataset.logo); break;
+    case 'clearimg': change(() => set(b.dataset.path+'.src', '')); break;
+    case 'clearlogo': change(() => set(b.dataset.path+'.logo', { src: '' })); break;
+    case 'logo': { const it = get(b.dataset.path); if(it && !it.logo) it.logo = { src: '' }; pendingImg = b.dataset.path+'.logo'; $('ed-file').value = ''; $('ed-file').click(); break; }
+    case 'img': if(Date.now() - panEnd < 400) break; pendingImg = b.dataset.path; $('ed-file').value = ''; $('ed-file').click(); break;
+    case 'secup': if(i > 0) change(() => { const A_ = S.sections; [A_[i-1], A_[i]] = [A_[i], A_[i-1]]; }); break;
+    case 'secdown': if(i < S.sections.length-1) change(() => { const A_ = S.sections; [A_[i+1], A_[i]] = [A_[i], A_[i+1]]; }); break;
+    case 'secflag': change(() => { S.sections[i][b.dataset.f] = !S.sections[i][b.dataset.f]; }); break;
+    case 'secdel':
+      if(armed !== b){ armed = b; b.classList.add('armed'); b.textContent = 'Delete section?'; setTimeout(() => { if(armed === b){ armed = null; b.classList.remove('armed'); b.textContent = '✕ Delete'; } }, 2500); return; }
+      armed = null; change(() => S.sections.splice(i, 1)); flash('Section deleted. Undo is available.'); break;
+    case 'secadd': {
+      const at = +b.dataset.at, type = document.querySelector('[data-addtype="'+at+'"]').value;
+      change(() => S.sections.splice(at, 0, Object.assign({ id: uid(), type, navLabel: '', dark: false, hidden: false }, SECTION_NEW[type]())));
+      break;
+    }
+    case 'undo': if(undoStack.length){ S = JSON.parse(undoStack.pop()); render(); saveDraft(); } break;
+    case 'settings': settings(); break;
+    case 'help': help(); break;
+    case 'closepanel': closePanel(); break;
+    case 'resetaccent': change(() => { S.meta.accent = '#C47F0A'; }); settings(); break;
+    case 'discard': try{ localStorage.removeItem(DRAFT_KEY); }catch(err){} S = JSON.parse(SAVED_JSON); undoStack.length = 0; closePanel(); render(); flash('Back to the published version'); break;
+    case 'preview': PREVIEW = !PREVIEW; render(); break;
+    case 'save': publish(); break;
+    case 'download': downloadFiles(); break;
+    case 'forgettoken': try{ localStorage.removeItem(TOKEN_KEY); }catch(err){} closePanel(); flash('Token removed from this browser'); break;
+    case 'exit': EDIT = false; PREVIEW = false; try{ history.replaceState(null, '', location.pathname + location.search); }catch(err){} closePanel(); render(); break;
+  }
+});
+document.addEventListener('change', e => {
+  const t = e.target;
+  if(t.id === 'ed-file' && pendingImg){ setImage(pendingImg, t.files[0]); pendingImg = null; return; }
+  if(t.dataset.navlabel != null){ change(() => { S.sections[+t.dataset.navlabel].navLabel = t.value.trim(); }); return; }
+  if(t.dataset.act === 'moveto' && t.value !== ''){
+    const from = get(t.dataset.from+'.items'), i = +t.dataset.i, to = S.sections[+t.value];
+    change(() => { to.items.push(from.splice(i, 1)[0]); }); flash('Moved to '+(to.heading || 'the other section')); return;
+  }
+  if(t.dataset.act === 'shape'){ change(() => set(t.dataset.path+'.shape', t.value)); return; }
+  if(t.dataset.setbool){ change(() => set(t.dataset.setbool, t.checked)); return; }
+});
+document.addEventListener('input', e => {
+  const t = e.target;
+  if(t.dataset && t.dataset.set){ set(t.dataset.set, t.value); if(t.dataset.set === 'meta.accent') document.documentElement.style.setProperty('--kapton', t.value); saveDraft(); return; }
+  const el = t.closest && t.closest('[data-path][contenteditable]');
+  if(!el) return;
+  let v = el.innerText.replace(/ /g, ' ');
+  v = el.dataset.multi ? v.replace(/\n+$/, '') : v.replace(/\n/g, ' ');
+  set(el.dataset.path, v);
+  saveDraft();
+});
+document.addEventListener('focusin', e => { if(EDIT && e.target.matches && e.target.matches('[data-path][contenteditable]')) snapshot(); });
+document.addEventListener('focusout', e => {
+  if(EDIT && e.target.matches && e.target.matches('[data-path][contenteditable]')){
+    const p = e.target.dataset.path;
+    if(/^profile\.(name|email|linkedinLabel)$|\.navLabel$/.test(p) || /^sections\.\d+\.(heading)$/.test(p)) setTimeout(() => { if(!document.activeElement || !document.activeElement.matches('[contenteditable]')) render(); }, 0);
+  }
+});
+document.addEventListener('keydown', e => {
+  const el = e.target;
+  if(el.matches && el.matches('[data-path][contenteditable]') && e.key === 'Enter' && !el.dataset.multi){ e.preventDefault(); el.blur(); }
+  if(e.key === 'Escape'){ if($('lb')) closeLightbox(); else closeDlg(); }
+  if(LB && e.key === 'ArrowLeft') lbGo(-1);
+  if(LB && e.key === 'ArrowRight') lbGo(1);
+  if(!LB && DLG && (e.key === 'ArrowLeft' || e.key === 'ArrowRight') && !(el.matches && el.matches('input,textarea,select,[contenteditable]'))){ e.preventDefault(); dlgGo(e.key === 'ArrowLeft' ? -1 : 1); }
+  if(!editing() && e.key === 'Enter' && el.matches && el.matches('.proj[data-open]')) openProject(el.dataset.open);
+  if(EDIT && e.key === 'Escape') closePanel();
+  if(EDIT && (e.ctrlKey || e.metaKey) && e.key === 's'){ e.preventDefault(); document.querySelector('[data-act=save]') && document.querySelector('[data-act=save]').click(); }
+});
+document.addEventListener('paste', e => {
+  const el = e.target.closest && e.target.closest('[data-path][contenteditable]');
+  if(!el || CE === 'plaintext-only') return;
+  e.preventDefault();
+  document.execCommand('insertText', false, (e.clipboardData || window.clipboardData).getData('text/plain'));
+});
+/* Drag a photo inside its frame to choose which part stays visible. */
+let pan = null, panEnd = 0;
+document.addEventListener('pointerdown', e => {
+  if(!editing() || e.button !== 0) return;
+  const img = e.target.closest && e.target.closest('.fig .frame img');
+  if(!img || !img.naturalWidth) return;
+  const path = img.closest('.fig').dataset.fig, f = get(path);
+  if(!f) return;
+  const fr = img.parentElement.getBoundingClientRect();
+  const z = +f.zoom > 1 ? +f.zoom : 1;
+  const k = f.contain ? Math.min(fr.width / img.naturalWidth, fr.height / img.naturalHeight) : Math.max(fr.width / img.naturalWidth, fr.height / img.naturalHeight);
+  // How far (px) the image moves on screen per 1% of position change; 0 when there is nothing to reveal on that axis.
+  const sx = (fr.width - z * img.naturalWidth * k) / 100, sy = (fr.height - z * img.naturalHeight * k) / 100;
+  pan = { img, path, z, x0: e.clientX, y0: e.clientY, xy: posXY(f.pos), sx: sx < -0.01 ? sx : 0, sy: sy < -0.01 ? sy : 0, moved: false, cur: null };
+  e.preventDefault();
+});
+document.addEventListener('pointermove', e => {
+  if(!pan) return;
+  const dx = e.clientX - pan.x0, dy = e.clientY - pan.y0;
+  if(!pan.moved && Math.abs(dx) + Math.abs(dy) < 4) return;
+  pan.moved = true;
+  const c = v => Math.round(Math.min(100, Math.max(0, v)) * 10) / 10;
+  const x = pan.sx ? c(pan.xy[0] + dx / pan.sx) : pan.xy[0], y = pan.sy ? c(pan.xy[1] + dy / pan.sy) : pan.xy[1];
+  pan.cur = [x, y];
+  pan.img.style.objectPosition = x+'% '+y+'%';
+  if(pan.z > 1) pan.img.style.transformOrigin = x+'% '+y+'%';
+  pan.img.closest('.frame').classList.add('panning');
+});
+['pointerup','pointercancel'].forEach(ev => document.addEventListener(ev, () => {
+  if(!pan) return;
+  const p = pan; pan = null;
+  if(!p.moved) return;
+  panEnd = Date.now();
+  if(p.cur) change(() => set(p.path+'.pos', p.cur[0]+'% '+p.cur[1]+'%'));
+}));
+
+['dragover','dragleave','drop'].forEach(ev => document.addEventListener(ev, e => {
+  if(!editing()) return;
+  const lg = e.target.closest && e.target.closest('.logo-box[data-logo]');
+  document.querySelectorAll('.logo-box.drop').forEach(x => { if(x !== lg || ev !== 'dragover') x.classList.remove('drop'); });
+  if(lg){
+    e.preventDefault();
+    if(ev === 'dragover') lg.classList.add('drop');
+    if(ev === 'drop'){ lg.classList.remove('drop'); const file = e.dataTransfer.files[0], q = lg.dataset.logo, it = get(q);
+      if(file && it){ if(!it.logo) it.logo = { src: '' }; setImage(q+'.logo', file); } }
+    return;
+  }
+  const f = e.target.closest && e.target.closest('.fig');
+  document.querySelectorAll('.fig.drop').forEach(x => { if(x !== f || ev !== 'dragover') x.classList.remove('drop'); });
+  if(!f) return;
+  e.preventDefault();
+  if(ev === 'dragover') f.classList.add('drop');
+  if(ev === 'drop'){ f.classList.remove('drop'); const file = e.dataTransfer.files[0]; if(file) setImage(f.dataset.fig, file); }
+}));
+
+function enterEdit(){
+  if(EDIT) return;
+  EDIT = true; PREVIEW = false;
+  let draft = null;
+  try{ draft = localStorage.getItem(DRAFT_KEY); }catch(e){}
+  render();
+  if(draft && draft !== JSON.stringify(S) && draft !== JSON.stringify(JSON.parse(SAVED_JSON))){
+    panel('<h2>Unsaved changes found</h2><p class="help">You edited this site earlier in this browser without publishing. Pick up where you left off?</p>'
+      + '<div class="row"><button class="ed-btn primary" id="ed-restore">Restore my changes</button><button class="ed-btn" data-act="discard">Start from the published version</button></div>');
+    $('ed-restore').onclick = () => { try{ S = JSON.parse(draft); }catch(e){} closePanel(); render(); flash('Changes restored'); };
+  }
+}
+window.addEventListener('hashchange', () => { if(location.hash === '#edit') enterEdit(); });
+/* Content is the JSON embedded above. Right after a Publish, GitHub needs about a minute
+   to rebuild, so this browser shows its own latest publish meanwhile. */
+try{
+  const pub = JSON.parse(localStorage.getItem(PUB_KEY) || 'null');
+  if(pub && pub.json && pub.json !== FILE_JSON && Date.now() - pub.t < 10 * 60 * 1000){ S = JSON.parse(pub.json); SAVED_JSON = pub.json; }
+}catch(e){}
+render();
+if(location.hash === '#edit') enterEdit();
+/* tl:end-of-script */
+})();
+</script>
+<!--/tl:body-->
+</body>
+</html>
